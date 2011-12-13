@@ -1,6 +1,6 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.res.MassConstant;
+import edu.ucsd.msalign.res.ResConstant;
 import edu.ucsd.msalign.spec.peak.DeconvPeak;
 import edu.ucsd.msalign.spec.sp.Ms;
 import edu.ucsd.msalign.spec.sp.MsHeader;
@@ -210,8 +210,8 @@ public class Scan {
 
         MsHeader header = new MsHeader(precursorCharge);
         header.setTitle("sp_" + id);
-        header.setPrecMonoMz(precursorMass / precursorCharge + MassConstant.getProtonMass());
-        header.setScans(Integer.toString(id));
+        header.setPrecMonoMz(precursorMass / precursorCharge + ResConstant.getProtonMass());
+        //header.setScans(Integer.toString(id));
         header.setActivationType("CID");
         header.setId(id);
         Ms<DeconvPeak> deconvMs = new Ms<DeconvPeak>(deconvPeaks, header);

@@ -1,5 +1,6 @@
 package ru.spbau.bioinf.tagfinder;
 
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -192,7 +193,7 @@ public class ShiftCheck {
                     if (res.startsWith(OTHER)) {
                         other++;
                         printResult = true;
-                        text.append(EValueAdapter.getBestEValue(scan, proteinId).getEValue());
+                        text.append(EValueAdapter.getBestEValue(scan, proteinId));
                     } else if (res.startsWith(GOOD)) {
                         good++;
                         System.out.println(scanId + " " + proteinId + " " + score);
@@ -203,7 +204,7 @@ public class ShiftCheck {
                         maxBadScore = Math.max(score, maxBadScore);
                         hasFail = true;
                         printResult = true;
-                        text.append(EValueAdapter.getBestEValue(scan, proteinId).getEValue() + " " + EValueAdapter.getBestEValue(scan, oldProteinId).getEValue());
+                        text.append(EValueAdapter.getBestEValue(scan, proteinId) + " " + EValueAdapter.getBestEValue(scan, oldProteinId));
                     }
                     text.append("\n");
                 }

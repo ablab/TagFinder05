@@ -1,7 +1,7 @@
 package ru.spbau.bioinf.tagfinder.ui;
 
 
-import edu.ucsd.msalign.align.prsm.PrSM;
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -17,7 +17,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
 import ru.spbau.bioinf.tagfinder.Configuration;
-import ru.spbau.bioinf.tagfinder.EValueAdapter;
 import ru.spbau.bioinf.tagfinder.Protein;
 import ru.spbau.bioinf.tagfinder.Scan;
 
@@ -162,21 +161,6 @@ public class ScanPanel extends JPanel {
 
     public int getProteinId() {
         return proteinId;
-    }
-
-    public PrSM[][][] calculateEValue() {
-        if (proteinId < 0) {
-            return null;
-        }
-        System.out.println("Start computing E-value...");
-        PrSM[][][] prsms = null;
-        try {
-            prsms = EValueAdapter.calculateEValue(scanView.getScan(), proteinId);
-            return  prsms;
-        } catch (Exception e1) {
-            e1.printStackTrace();
-        }
-        return prsms;
     }
 
     public Scan createReducedScan() {

@@ -1,12 +1,11 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.align.prsm.PrSM;
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import ru.spbau.bioinf.tagfinder.stat.PlaceStatistics;
 
 public class EValueChecker {
 
@@ -35,11 +34,7 @@ public class EValueChecker {
             int scanId = scan.getId();
             if (msAlignResults.containsKey(scanId)) {
                 Integer proteinId = msAlignResults.get(scanId);
-                PrSM prsm = EValueAdapter.getBestEValue(scan, proteinId);
-                double newEvalue =  999999999999999999999d;
-                if (prsm != null) {
-                    newEvalue = prsm.getEValue();
-                }
+                double newEvalue= EValueAdapter.getBestEValue(scan, proteinId);
                 Double oldEvalue = evalues.get(scanId);
                 System.out.println(scanId + " " + proteinId + " " + oldEvalue + " " + newEvalue + " " + (1 - (newEvalue / oldEvalue)));
             }

@@ -53,7 +53,7 @@ public class Configuration {
     }
 
     private void init(String[] args) {
-        String dataset = "data/salmonella5";
+        String dataset = "data/salmonella";
         if (args != null) {
             for (int i = 0; i < args.length; i++) {
                 String arg = args[i];
@@ -67,6 +67,7 @@ public class Configuration {
 
         datasetDir = new File(dataset);
         inputDir = createDir("input");
+        inputData = new File(inputDir, "no_digestion_result_detail.txt");
         File[] proteinDatabases = inputDir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
                 return name.endsWith(".fasta");

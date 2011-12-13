@@ -1,6 +1,6 @@
 package ru.spbau.bioinf.tagfinder.ui;
 
-import edu.ucsd.msalign.align.prsm.PrSM;
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -19,7 +19,6 @@ import javax.swing.JTabbedPane;
 import javax.swing.KeyStroke;
 import javax.swing.SwingWorker;
 import ru.spbau.bioinf.tagfinder.Configuration;
-import ru.spbau.bioinf.tagfinder.EValueAdapter;
 import ru.spbau.bioinf.tagfinder.Protein;
 
 import java.util.List;
@@ -92,13 +91,11 @@ public class TagFinder extends JFrame {
                     updateStatus("Computing E-value...");
                     new SwingWorker() {
 
-                        private PrSM[][][] prsms;
                         private ScanPanel scanPanel;
 
                         @Override
                         protected Object doInBackground() throws Exception {
                             scanPanel = (ScanPanel) panel;
-                            prsms = scanPanel.calculateEValue();
                             return null;
                         }
 
@@ -106,26 +103,6 @@ public class TagFinder extends JFrame {
                         protected void done() {
                             double bestEvalue = -1;
                             String text = "";
-                            if (prsms != null) {
-                                for (int i = 0; i < prsms.length; i++) {
-                                    if (prsms[i] != null) {
-                                        for (int j = 0; j < 4; j++) {
-                                            if (prsms[i][j] != null) {
-                                                for (int k = 0; k < prsms[i][j].length; k++) {
-                                                    if (prsms[i][j][k] != null) {
-                                                        PrSM prsm = prsms[i][j][k];
-                                                        double eValue = prsm.getEValue();
-                                                        if (bestEvalue < 0 || bestEvalue > eValue) {
-                                                            bestEvalue = eValue;
-                                                            text = "Scan " + scanPanel.getScanId() + " protein " + scanPanel.getProteinId() + " shift " + i + " alignment type " + j + " score " + prsm.getUniqueScr() + " E-value " + eValue;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
                             updateStatus(text);
                         }
                     }.execute();

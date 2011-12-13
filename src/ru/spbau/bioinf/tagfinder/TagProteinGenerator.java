@@ -1,6 +1,6 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.align.prsm.PrSM;
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.util.HashMap;
 
 import java.util.ArrayList;
@@ -133,8 +133,7 @@ public class TagProteinGenerator {
 
 
                 if (!done.contains(key)) {
-                    PrSM prsm = EValueAdapter.getBestEValue(scan, proteinId);
-                    double eValue = prsm == null? 9E10 : prsm.getEValue();
+                    double eValue = EValueAdapter.getBestEValue(scan, proteinId);
                     done.add(key);
                     System.out.println(scan.getId() + " " + oldProteinId + " " + proteinId + " " + eValue);
 

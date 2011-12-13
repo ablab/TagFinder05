@@ -1,7 +1,7 @@
 package ru.spbau.bioinf.tagfinder;
 
 
-import edu.ucsd.msalign.align.prsm.PrSM;
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -140,14 +140,11 @@ public class FastSearch {
 
     private static double getEValue(int scanId, int proteinId) throws Exception {
         String key = scanId + "_" + proteinId;
-        double ans = Integer.MAX_VALUE;
+        double ans;
         if (evalues.containsKey(key)) {
             return evalues.get(key);
         } else {
-            PrSM prsm = EValueAdapter.getBestEValue(scans.get(scanId), proteinId);
-            if (prsm != null) {
-                ans = prsm.getEValue();
-            }
+            ans = EValueAdapter.getBestEValue(scans.get(scanId), proteinId);
             evalues.put(key, ans);
         }
 

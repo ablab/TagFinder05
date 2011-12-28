@@ -53,7 +53,7 @@ public class Configuration {
     }
 
     private void init(String[] args) {
-        String dataset = "data/salmonella";
+        String dataset = "data/salmonella4";
         if (args != null) {
             for (int i = 0; i < args.length; i++) {
                 String arg = args[i];
@@ -61,8 +61,8 @@ public class Configuration {
                     mod = arg.substring(3);
                 } else if (i == 0){
                     dataset = args[0];
+                    }
                 }
-            }
         }
 
         datasetDir = new File(dataset);
@@ -76,7 +76,7 @@ public class Configuration {
         if (proteinDatabases.length == 1) {
             proteinDatabase = proteinDatabases[0];
         } else {
-            proteinDatabase = new File(inputDir, args[1]);
+                proteinDatabase = new File(inputDir, args[1]);
         }
 
 
@@ -169,11 +169,11 @@ public class Configuration {
                 int proteinId = Integer.parseInt(data[3]);
                 double EValue = Double.parseDouble(data[data.length - 1]);
                 evalues.put(scanId, EValue);
-                if (EValue < EVALUE_LIMIT) {
+                //if (EValue < EVALUE_LIMIT) {
                     ans.put(scanId, proteinId);
-                } else {
-                    badMSAlignResults.put(scanId, proteinId);
-                }
+                //} else {
+                //    badMSAlignResults.put(scanId, proteinId);
+                //}
             }
         } else {
             File resultTable = new File(inputDir, "result_table.txt");
@@ -187,11 +187,11 @@ public class Configuration {
                 int proteinId = Integer.parseInt(data[3]);
                 double EValue = Double.parseDouble(data[data.length - 4]);
                 evalues.put(scanId, EValue);
-                if (EValue < EVALUE_LIMIT) {
+                //if (EValue < EVALUE_LIMIT) {
                     ans.put(scanId, proteinId);
-                } else {
-                    badMSAlignResults.put(scanId, proteinId);
-                }
+                //} else {
+                //    badMSAlignResults.put(scanId, proteinId);
+                //}
             }
         }
         return ans;

@@ -11,20 +11,27 @@ import ru.spbau.bioinf.tagfinder.Scan;
 
 public class EValueAdapter {
 
-    private static IdEValue eValueCalculator;
     private static IdCompEValue comp;
 
 
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration(args);
         init(conf);
+        /*
         Map<Integer,Scan> scans = conf.getScans();
         Map<Integer, Integer> msAlignResults = conf.getMSAlignResults();
         Map<Integer, Double> evalues = conf.getEvalues();
+
+        int scanId = 3180;
+        int proteinId = 4246;
+        System.out.println(scanId + " " + proteinId + " " + getBestEValue(scans.get(scanId), proteinId));
+
         for (int scanId : evalues.keySet()) {
             int proteinId = msAlignResults.get(scanId);
             System.out.println(scanId + " " + proteinId + " " + evalues.get(scanId) + " " + getBestEValue(scans.get(scanId), proteinId));
         }
+        */
+
     }
 
     public static void init(Configuration conf) throws Exception {
@@ -40,7 +47,6 @@ public class EValueAdapter {
 //        properties.setProperty("eValueThreshold", "0.01");
 //        eValueCalculator = new IdEValue();
 //        eValueCalculator.init(properties);
-
     }
 
     public static double getBestEValue(Scan scan, int proteinId) throws Exception  {

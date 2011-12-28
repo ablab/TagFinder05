@@ -1,5 +1,6 @@
 package ru.spbau.bioinf.tagfinder;
 
+import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,8 +10,25 @@ import java.util.Map;
 public class UnmatchedStatistics {
 
     public static void main(String[] args) throws Exception {
+
+        //calculateEvaluesForRestSpectra(args);
+
         tableSixteen();
-        tableUnident();
+        //tableUnident();
+
+    }
+
+    private static void calculateEvaluesForRestSpectra(String[] args) throws Exception {
+        Configuration conf = new Configuration(new String[]{}, UnmatchedScansGenerator.SHARED_MODE);
+        Configuration originalConfiguration = new Configuration(args);
+        EValueAdapter.init(originalConfiguration);
+        Map<Integer,Scan> scans = conf.getScans();
+        Map<Integer, Integer> msAlignResults = originalConfiguration.getMSAlignResults();
+        Map<Integer, Double> evalues = originalConfiguration.getEvalues();
+        for (int scanId : scans.keySet()) {
+            int proteinId = msAlignResults.get(scanId);
+            System.out.println(scanId + " " + proteinId + " " + evalues.get(scanId) + " " + EValueAdapter.getBestEValue(scans.get(scanId), proteinId));
+        }
     }
 
     public static void tableUnident() throws IOException {

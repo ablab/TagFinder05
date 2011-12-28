@@ -21,7 +21,11 @@ public class FourSearch {
         Map<Integer, Integer> msAlignResults = conf.getMSAlignResults();
         Map<Integer, Scan> scans = conf.getScans();
         List<Integer> keys = new ArrayList<Integer>();
-        keys.addAll(scans.keySet());
+        for (Scan scan : scans.values()) {
+            if (scan.getPeaks().size() >= 10 && scan.getPrecursorMass() > 2500) {
+                keys.add(scan.getId());
+            }
+        }
         Collections.sort(keys);
         Set<Integer> forProcess = new HashSet<Integer>();
         forProcess.addAll(conf.getBadMSAlignResults().keySet());
@@ -42,6 +46,9 @@ public class FourSearch {
         forProcess.clear();forProcess.add(1247);
         */
 
+        //keys.clear(); keys.add(1250);
+
+        System.out.println("Total number of scans: " + keys.size());
         for (int scanId : keys) {
             if (msAlignResults.keySet().contains(scanId)) {
                 //continue;
@@ -56,7 +63,7 @@ public class FourSearch {
             GraphUtil.generateGapEdges(conf, peaks, 1);
             List<List<Peak>> componentsFromGraph = GraphUtil.getComponentsFromGraph(peaks);
             final Map<Integer, Integer> score = new HashMap<Integer, Integer>();
-            System.out.print("\n " + scanId) ;
+            System.out.print(scanId) ;
             for (List<Peak> component : componentsFromGraph) {
                 Peak[] tagPeaks = GraphUtil.findBestTag(component);
                 /*
@@ -118,24 +125,34 @@ public class FourSearch {
                         return score.get(p2) - score.get(p1);
                     }
                 });
+                double bestEvalue = 10E9;
+                int bestProteinId = -1;
                 for (int i = 0; i < proteinIds.size(); i++) {
                     if (i == 20) {
                         break;
                     }
                     int proteinId = proteinIds.get(i);
-                    if (score.get(proteinId) > 3) {
+                    if (score.get(proteinId) > 0) {
                         //System.out.println(proteinId + " " + score.get(proteinId) + " " + proteins.get(proteinId).getName());
                     }
 
                     double evalue = EValueAdapter.getBestEValue(scan, proteinId);
                     if (evalue < 1) {
                         if (evalue < Configuration.EVALUE_LIMIT) {
-                            System.out.print("!");
+                            //System.out.print("!");
                         }
-                        System.out.println("Success: " + evalue + " " +  proteinId + " " + score.get(proteinId) + " " + proteins.get(proteinId).getName());
+                        if (evalue < bestEvalue) {
+                            bestProteinId = proteinId;
+                            bestEvalue = evalue;
+                        }
+                        //System.out.println("Success: " + evalue + " " +  proteinId + " " + score.get(proteinId) + " " + proteins.get(proteinId).getName());
                     }
                 }
+                if (bestProteinId >= 0) {
+                    System.out.print(" " + bestProteinId + " " + bestEvalue +  " " +  score.get(bestProteinId) + " " + proteins.get(bestProteinId).getName());
+                }
             }
+            System.out.println();
 
         }
 

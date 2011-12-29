@@ -1,0 +1,24 @@
+#Total number of scans for process: 93
+#Started at Thu Dec 29 15:14:52 MSK 2011
+3804 
+3810 
+3811 
+3812 
+3818 
+3819 
+3820 
+3822 336 0.6990917333720874 5 gi|16763731|ref|NP_459346.1| putative cation efflux system protein [Salmonella typhimurium LT2]
+3823 958 6.977094612985885 4 gi|16764354|ref|NP_459969.1| cell division protein [Salmonella typhimurium LT2]
+3824 3492 60.54850176358162 2 gi|16766902|ref|NP_462517.1| tetratricopeptide repeat protein [Salmonella typhimurium LT2]
+3826 2302 8.235087585412095E-37 4 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3827 
+3828 
+3838 
+3844 567 5.926927951629147 1 gi|16763965|ref|NP_459580.1| enterobactin synthetase component F [Salmonella typhimurium LT2]
+3846 
+3851 
+3854 3831 4.152048489623625E-5 5 gi|16767243|ref|NP_462858.1| Sec-independent protein secretion pathway component [Salmonella typhimurium LT2]
+3855 
+3856 
+3858 
+

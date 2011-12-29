@@ -1,5 +1,5 @@
-Total number of scans for process: 71
-Started at Thu Dec 29 11:44:38 MSK 2011
+#Total number of scans for process: 71
+#Started at Thu Dec 29 11:44:38 MSK 2011
 4023 
 4099 
 4104 
@@ -13,12 +13,12 @@ Started at Thu Dec 29 11:44:38 MSK 2011
 4124 
 4126 
 4127 
-4132  4165 2.909826468230788E-27 2 gi|16767578|ref|NP_463193.1| chaperone Hsp10 [Salmonella typhimurium LT2]
+4132 4165 2.909826468230788E-27 2 gi|16767578|ref|NP_463193.1| chaperone Hsp10 [Salmonella typhimurium LT2]
 4136 
 4139 
 4142 
 4148 
-4151  3231 11.609466203448683 1 gi|16766641|ref|NP_462256.1| putative ATPase [Salmonella typhimurium LT2]
+4151 3231 11.609466203448683 1 gi|16766641|ref|NP_462256.1| putative ATPase [Salmonella typhimurium LT2]
 4152 
 4154 
 4155 
@@ -71,4 +71,4 @@ Started at Thu Dec 29 11:44:38 MSK 2011
 4242 
 4246 
 4247 
-Finished at Thu Dec 29 11:52:22 MSK 2011
+#Finished at Thu Dec 29 11:52:22 MSK 2011

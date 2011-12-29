@@ -1,0 +1,72 @@
+#Total number of scans for process: 398
+#Started at Thu Dec 29 13:35:10 MSK 2011
+3000 3941 8.96582117784296E-14 17 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3002 3941 2.6450561365178777E-35 4 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3003 3941 1.950732805667272E-34 16 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3004 1623 14.131892278212831 3 gi|16765022|ref|NP_460637.1| periplasmic murein tripeptide transport protein [Salmonella typhimurium LT2]
+3006 3941 3.3711913246874624E-36 14 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3007 18 31.15554953106138 5 gi|16763409|ref|NP_459024.1| putative hydroxymethyltransferase [Salmonella typhimurium LT2]
+3008 3941 4.585963686675085E-28 12 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3010 3941 1.4938945363195562E-29 14 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3011 2428 109.59611606205036 4 gi|16765835|ref|NP_461450.1| putative outer membrane protein [Salmonella typhimurium LT2]
+3012 3941 9.946042080008414E-31 10 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3014 3941 2.445269538185589E-37 8 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3015 3941 1.2782779509788367E-29 7 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3016 2331 23.643411593176477 3 gi|16765736|ref|NP_461351.1| hypothetical protein STM2410 [Salmonella typhimurium LT2]
+3018 3941 3.4735160929419715E-28 5 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3019 148 5.961486200153166 2 gi|16763541|ref|NP_459156.1| pyruvate dehydrogenase complex transcriptional repressor [Salmonella typhimurium LT2]
+3020 3941 5.0876898239425487E-26 6 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3022 435 2.8030555349797636E-15 14 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+3023 2912 5.355420295879696 4 gi|16766321|ref|NP_461936.1| putative acetyl-CoA acetyltransferase [Salmonella typhimurium LT2]
+3024 3941 1.647226418618286E-28 6 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3026 3941 7.922358034688507E-36 11 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3027 435 2.6056972471051273E-9 6 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+3028 435 2.4937018272271413E-13 9 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+3030 2073 7.638572221171763 5 gi|16765478|ref|NP_461093.1| putative outer membrane lipoprotein [Salmonella typhimurium LT2]
+3031 
+3032 1192 4.921195938489216 2 gi|16764587|ref|NP_460202.1| adenylosuccinate lyase [Salmonella typhimurium LT2]
+3034 18 6.142098734795298 5 gi|16763409|ref|NP_459024.1| putative hydroxymethyltransferase [Salmonella typhimurium LT2]
+3035 3941 3.619945942555274E-24 2 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3038 2233 1.576198844086506E-9 2 gi|16765638|ref|NP_461253.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3039 2233 1.7575169874270819E-19 3 gi|16765638|ref|NP_461253.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3040 1140 19.26337025149473 2 gi|16764535|ref|NP_460150.1| flagellar basal-body rod protein [Salmonella typhimurium LT2]
+3042 2233 3.84271255222767E-17 3 gi|16765638|ref|NP_461253.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3043 2233 3.2952157921127374E-19 8 gi|16765638|ref|NP_461253.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3044 
+3046 
+3047 884 29.22036139959751 2 gi|16764280|ref|NP_459895.1| putative minor tail protein [Phage Fels-1]
+3048 
+3050 
+3051 2887 18.601115897040714 1 gi|16766297|ref|NP_461912.1| protease III [Salmonella typhimurium LT2]
+3052 652 7.596942399567318 1 gi|16764050|ref|NP_459665.1| asparagine synthetase B [Salmonella typhimurium LT2]
+3054 469 8.979600307720984E-10 6 gi|16763865|ref|NP_459480.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3055 3270 81.79742364985465 2 gi|16766679|ref|NP_462294.1| possible dehydrogenase [Salmonella typhimurium LT2]
+3056 567 5.431604665197343 1 gi|16763965|ref|NP_459580.1| enterobactin synthetase component F [Salmonella typhimurium LT2]
+3058 
+3059 1854 4.942960512252338 2 gi|16765257|ref|NP_460872.1| chemotactic response protein [Salmonella typhimurium LT2]
+3060 
+3062 
+3064 1131 224.68227053390393 1 gi|16764526|ref|NP_460141.1| putative virulence protein [Salmonella typhimurium LT2]
+3066 230 11.341038725717706 2 gi|16763623|ref|NP_459238.1| putative endochitinase [Salmonella typhimurium LT2]
+3067 3118 1.252450053084362E-17 2 gi|16766528|ref|NP_462143.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3068 3118 2.2858016212932584E-17 5 gi|16766528|ref|NP_462143.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3070 
+3071 
+3075 
+3076 
+3078 
+3079 
+3080 
+3082 
+3084 
+3086 
+3087 
+3088 
+3090 
+3092 
+3094 
+3095 
+3096 
+3098 
+3099 
+#interrupted at 17:30

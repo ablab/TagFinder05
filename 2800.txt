@@ -1,0 +1,123 @@
+#Total number of scans for process: 508
+#Started at Thu Dec 29 12:39:48 MSK 2011
+2804 
+2806 
+2807 
+2808 
+2810 4322 34.86133767111285 2 gi|16767740|ref|NP_463355.1| putative DNA repair ATPase [Salmonella typhimurium LT2]
+2811 4322 23.85512218442284 2 gi|16767740|ref|NP_463355.1| putative DNA repair ATPase [Salmonella typhimurium LT2]
+2812 549 12.437391293600424 1 gi|16763947|ref|NP_459562.1| outer membrane esterase [Salmonella typhimurium LT2]
+2814 3206 3.0440672798498106E-11 3 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2815 3206 2.6717150736538392E-11 5 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2816 3206 3.493336194869681E-14 2 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2818 
+2819 
+2820 
+2822 
+2823 
+2824 
+2826 
+2830 
+2831 
+2832 
+2834 1787 105.69953784077518 1 gi|16765188|ref|NP_460803.1| putative nucleotide-binding protein [Salmonella typhimurium LT2]
+2835 
+2836 1115 6.386476152115751 1 gi|16764510|ref|NP_460125.1| putative transport protein [Salmonella typhimurium LT2]
+2838 
+2839 1407 0.39143053492466645 2 gi|16764802|ref|NP_460417.1| putative NADH-quinone reductase [Salmonella typhimurium LT2]
+2840 
+2842 
+2843 1206 2.268799891988755E-15 7 gi|16764601|ref|NP_460216.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2846 435 7.6697951641772125E-25 7 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2847 435 3.362251707502497E-25 12 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2848 200 105.6979116608455 3 gi|16763593|ref|NP_459208.1| putative chlorine transport protein [Salmonella typhimurium LT2]
+2850 1377 8.798335070539572 3 gi|16764772|ref|NP_460387.1| type III secretion system apparatus protein [Salmonella typhimurium LT2]
+2851 2050 163.87172357978602 1 gi|16765456|ref|NP_461071.1| putative secretion protein [Salmonella typhimurium LT2]
+2852 435 1.1770477455636718E-22 8 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2854 435 2.36013959552866E-19 5 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2855 2194 15.767637065803996 1 gi|16765599|ref|NP_461214.1| DNA gyrase subunit A [Salmonella typhimurium LT2]
+2856 2011-12-29 13:35:38,485 [Thread-2130] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
+2011-12-29 13:35:58,811 [Thread-2131] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
+2011-12-29 13:36:19,447 [Thread-2132] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
+2011-12-29 13:36:39,967 [Thread-2133] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
+1386 2.9733361463144903E-43 1 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2858 
+2859 2011-12-29 13:43:17,652 [Thread-2163] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
+2011-12-29 13:43:35,187 [Thread-2164] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
+2011-12-29 13:43:52,529 [Thread-2165] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
+2011-12-29 13:44:09,847 [Thread-2166] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
+1386 2.9733361654618137E-43 5 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2860 1386 1.1691473881310868E-30 3 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2862 1386 3.5571804392613864E-38 8 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2863 
+2864 435 5.37681963568551E-18 5 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2866 
+2867 947 1.724152805614657 4 gi|16764343|ref|NP_459958.1| putative recombination protein [Salmonella typhimurium LT2]
+2868 1027 57.58791473972434 1 gi|16764420|ref|NP_460035.1| putative N6-adenine-specific DNA methylase [Salmonella typhimurium LT2]
+2870 
+2871 
+2872 96 5.429583128974887 4 gi|16763488|ref|NP_459103.1| putative secreted protein [Salmonella typhimurium LT2]
+2875 435 1.0079888470197471E-13 5 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2876 1386 3.801039158082908E-21 1 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2878 
+2879 
+2880 
+2882 
+2883 1252 2.8841209418972573 1 gi|16764646|ref|NP_460261.1| protease IV [Salmonella typhimurium LT2]
+2884 435 1.565529575169823E-11 4 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2887 
+2888 
+2890 
+2892 
+2894 1088 99.89056826262444 1 gi|16764482|ref|NP_460097.1| major sodium/proline symporter [Salmonella typhimurium LT2]
+2895 
+2896 
+2898 
+2902 2227 129.38983200076504 1 gi|16765632|ref|NP_461247.1| O-succinylbenzoate-CoA ligase [Salmonella typhimurium LT2]
+2906 
+2910 
+2912 
+2914 
+2916 
+2918 
+2919 
+2920 
+2926 
+2930 
+2932 
+2935 
+2942 
+2943 
+2944 
+2946 
+2947 
+2948 
+2950 
+2951 
+2952 
+2954 
+2955 
+2959 2996 13.126503880645819 1 gi|16766406|ref|NP_462021.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2960 2871 263.4130722389323 1 gi|16766281|ref|NP_461896.1| L-fuculokinase [Salmonella typhimurium LT2]
+2962 
+2963 
+2967 1083 1.8498219651334228E-23 8 gi|16764476|ref|NP_460091.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2968 820 2.9808264009045606 1 gi|16764219|ref|NP_459834.1| putative acyl-CoA dehydrogenase [Salmonella typhimurium LT2]
+2970 3941 1.1367487288567582E-28 8 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2971 572 20.46780923206391 2 gi|16763970|ref|NP_459585.1| putative transport protein [Salmonella typhimurium LT2]
+2978 
+2979 
+2980 
+2982 
+2984 
+2986 
+2987 
+2988 
+2990 
+2995 
+2996 
+2998 4005 10.572835803061086 3 gi|16767418|ref|NP_463033.1| 5'-phosphoryl-5-aminoimidazole [Salmonella typhimurium LT2]
+2999 3941 2.0134321791162977E-19 15 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3000 3941 1.0345740040754394E-13 17 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3002
+#interrupted 16:07

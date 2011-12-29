@@ -36,17 +36,9 @@
 2852 435 1.1770477455636718E-22 8 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
 2854 435 2.36013959552866E-19 5 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
 2855 2194 15.767637065803996 1 gi|16765599|ref|NP_461214.1| DNA gyrase subunit A [Salmonella typhimurium LT2]
-2856 2011-12-29 13:35:38,485 [Thread-2130] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
-2011-12-29 13:35:58,811 [Thread-2131] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
-2011-12-29 13:36:19,447 [Thread-2132] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
-2011-12-29 13:36:39,967 [Thread-2133] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.00471288275313827
-1386 2.9733361463144903E-43 1 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2856 1386 2.9733361463144903E-43 1 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
 2858 
-2859 2011-12-29 13:43:17,652 [Thread-2163] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
-2011-12-29 13:43:35,187 [Thread-2164] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
-2011-12-29 13:43:52,529 [Thread-2165] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
-2011-12-29 13:44:09,847 [Thread-2166] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0047128827227888295
-1386 2.9733361654618137E-43 5 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2859 1386 2.9733361654618137E-43 5 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
 2860 1386 1.1691473881310868E-30 3 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
 2862 1386 3.5571804392613864E-38 8 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
 2863 

@@ -1,6 +1,7 @@
 package ru.spbau.bioinf.tagfinder;
 
 import edu.ucsd.msalign.spec.id.EValueAdapter;
+import java.io.File;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,19 +25,36 @@ public class Tag4Finder {
     static int TAG_SIZE = 4;
     
     public static void main(String[] args) throws Exception {
-        conf = new Configuration(args);
+        String[] parameters = new String[]{};
+        int start = -1;
+        for (String arg : args) {
+            File file = new File(arg);
+            if (file.isDirectory()) {
+                parameters = new String[]{arg};
+            } else {
+                try {
+                    start = Integer.parseInt(arg);
+                } catch (NumberFormatException e) {
+                }
+            }    
+        }
+                
+        conf = new Configuration(parameters);
         EValueAdapter.init(conf);
         proteins = conf.getProteins();
         Map<Integer, Scan> scans = conf.getScans();
         List<Integer> keys = new ArrayList<Integer>();
         for (Scan scan : scans.values()) {
             if (scan.getPeaks().size() >= 10 && scan.getPrecursorMass() > 2500) {
-                keys.add(scan.getId());
+                int scanId = scan.getId();
+                if (scanId >= start) {
+                    keys.add(scanId);
+                }
             }
         }
         Collections.sort(keys);
-        System.out.println("Total number of scans for process: " + keys.size());
-        System.out.println("Started at " + new Date());
+        System.out.println("#Total number of scans for process: " + keys.size());
+        System.out.println("#Started at " + new Date());
         for (int scanId : keys) {
             Scan scan = scans.get(scanId);
             List<Peak> peaks = scan.createSpectrumWithYPeaks(PrecursorMassShiftFinder.getPrecursorMassShiftForMoreEdges(conf, scan));
@@ -54,7 +72,7 @@ public class Tag4Finder {
                         return score.get(p2) - score.get(p1);
                     }
                 });
-                double bestEvalue = 10E9;
+                double bestEvalue = 10E99;
                 int bestProteinId = -1;
                 for (int i = 0; i < proteinIds.size(); i++) {
                     if (i == 20) {
@@ -68,12 +86,12 @@ public class Tag4Finder {
                     }
                 }
                 if (bestProteinId >= 0) {
-                    System.out.print(" " + bestProteinId + " " + bestEvalue +  " " +  score.get(bestProteinId) + " " + proteins.get(bestProteinId).getName());
+                    System.out.print(bestProteinId + " " + bestEvalue +  " " +  score.get(bestProteinId) + " " + proteins.get(bestProteinId).getName());
                 }
             }
             System.out.println();
         }
-        System.out.println("Finished at " + new Date()) ;
+        System.out.println("#Finished at " + new Date()) ;
     }
 
 

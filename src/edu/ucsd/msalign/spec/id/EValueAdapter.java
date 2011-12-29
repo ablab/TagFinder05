@@ -35,7 +35,7 @@ public class EValueAdapter {
     }
 
     public static void init(Configuration conf) throws Exception {
-        comp = new IdCompEValue(conf.getProteinDatabaseFile().getCanonicalPath(), conf.getSpectrumsFile().getCanonicalPath(), 15);
+        comp = new IdCompEValue(conf.getProteinDatabaseFile().getCanonicalPath(), conf.getProteinDatabaseFile().getCanonicalPath(), 15);
 //        final Properties properties = new Properties();
 //        properties.setProperty("databaseFileName", );
 //        properties.setProperty("useDecoyDb", "false");

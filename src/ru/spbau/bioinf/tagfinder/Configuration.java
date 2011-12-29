@@ -34,26 +34,12 @@ public class Configuration {
 
     private String mod = null;
 
-    public Configuration(String[] arg1, String... arg2) {
-        int n = 0;
-        if (arg1 != null) {
-            n += arg1.length;
-        }
-        String[] a = new String[n + arg2.length];
-        for (int i = 0; i < arg1.length; i++) {
-            a[i] = arg1[i];
-        }
-        for (int i = 0; i < arg2.length; i++) {
-            a[i + n] = arg2[i];
-        }
-        init(a);
-    }
-    public Configuration(String... args) {
+    public Configuration(String... args) throws IOException {
         init(args);
     }
 
-    private void init(String[] args) {
-        String dataset = "data/salmonella4";
+    private void init(String[] args) throws IOException {
+        String dataset = "";
         if (args != null) {
             for (int i = 0; i < args.length; i++) {
                 String arg = args[i];
@@ -66,7 +52,7 @@ public class Configuration {
         }
 
         datasetDir = new File(dataset);
-        inputDir = createDir("input");
+        inputDir = new File(datasetDir.getCanonicalPath());
         inputData = new File(inputDir, "no_digestion_result_detail.txt");
         File[] proteinDatabases = inputDir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
@@ -210,139 +196,6 @@ public class Configuration {
         return evalues;
     }
 
-    public Map<Integer, List<Peak>> getMSAlignPeaks(Map<Integer, Scan> scans) throws IOException {
-        getMSAlignResults();
-        BufferedReader input = ReaderUtil.createInputReader(new File(inputDir, "no_digestion_result_detail.txt"));
-        Map<Integer, List<Peak>> ans = new HashMap<Integer, List<Peak>>();
-        String s;
-        Properties properties;
-        while ((properties = ReaderUtil.readPropertiesUntil(input, "BEGIN MATCH_PAIR")).size() > 0) {
-            String spectrumIdProperty = properties.getProperty("SPECTRUM_ID");
-            int spectrumIdKey = Integer.parseInt(spectrumIdProperty);
-            if (spectrums.containsKey(spectrumIdKey)) {
-                int scanId = spectrums.get(spectrumIdKey);
-                double precursorMass = scans.get(scanId).getPrecursorMass();
-                List<Peak> peaks = new ArrayList<Peak>();
-                peaks.add(new Peak(0,0 ,0));
-                while(!(s = input.readLine()).equals("END MATCH_PAIR")) {
-                    String[] data = ReaderUtil.getDataArray(s);
-                    double mass = Double.parseDouble(data[3]);
-                    boolean isB = "B".equals(data[4]);
-                    double value = isB ? mass : precursorMass - mass;
-                    Peak peak = isB ? new Peak(value, 0, 0) : new Peak(precursorMass - mass, mass, 0, 0);
-                    peaks.add(peak);
-                }
-                peaks.add(new Peak(precursorMass, 0, 0));
-                Collections.sort(peaks);
-                ans.put(scanId, peaks);
-            }
-            ReaderUtil.readPropertiesUntil(input, "END PRSM");
-
-        }
-        return ans;
-    }
-
-    public Map<Integer, double[]> getAnnotatedSpectrums() throws IOException {
-        BufferedReader input = ReaderUtil.createInputReader(new File(inputDir, "result_table.txt"));
-        //input.readLine();
-        Map<Integer, double[]> ans = new HashMap<Integer, double[]>();
-        String s;
-        while ((s = input.readLine()) != null) {
-            String[] data = s.split("[\t]");
-            int scanId = Integer.parseInt(data[5]);
-            spectrums.put(Integer.parseInt(data[2]), scanId);
-            String match = data[data.length - 8];
-            List<Double> values = new ArrayList<Double>();
-            int brackets = 0;
-            match = match.substring(match.indexOf(".") + 1, match.lastIndexOf("."));
-            match = match.replaceAll("L", "I");
-            double mass = 0;
-            int cur = 0;
-            boolean isWall = false;
-            while (cur < match.length()) {
-                if (brackets ==0) {
-                    values.add(isWall ? Integer.MIN_VALUE : mass);
-                }
-                char ch = match.charAt(cur);
-                switch (ch) {
-                    case '[':
-                        int nextCur = match.indexOf(']', cur);
-                        mass += Double.parseDouble(match.substring(cur + 1, nextCur));
-                        cur = nextCur;
-                        isWall = false;
-                        break;
-                    case '(':
-                        brackets++;
-                        isWall = true;
-                        break;
-                    case ')':
-                        brackets--;
-                        break;
-                    default:
-                        mass += Acid.getAcid(ch).getMass();
-                }
-                cur++;
-            }
-            values.add(mass);
-            double[] spectrum = new double[values.size()];
-            for (int i = 0; i < spectrum.length; i++) {
-                spectrum[i] = values.get(i);
-            }
-            ans.put(scanId, spectrum);
-        }
-        return ans;
-    }
-
-
-    public Map<Integer, Map<Double, String>> getMSAlignData() throws IOException {
-        BufferedReader input = ReaderUtil.createInputReader(new File(inputDir, "nodigestion_result_list.txt"));
-        Map<Integer, Map<Double, String>> ans = new HashMap<Integer, Map<Double, String>>();
-        String s;
-        while ((s = input.readLine()) != null) {
-            String[] data = ReaderUtil.getDataArray(s);
-            int scanId = Integer.parseInt(data[7]);
-            spectrums.put(Integer.parseInt(data[2]), scanId);
-            String match = data[data.length - 5];
-            Map<Double, String> value = new HashMap<Double, String>();
-            int brackets = 0;
-            match = match.substring(match.indexOf(".") + 1, match.lastIndexOf("."));
-            match = match.replaceAll("L", "I");
-            double mass = 0;
-            int cur = 0;
-            while (cur < match.length()) {
-                if (brackets ==0) {
-                    value.put(mass, match.substring(cur));
-                }
-                char ch = match.charAt(cur);
-                switch (ch) {
-                    case '[':
-                        int nextCur = match.indexOf(']', cur);
-                        mass += Double.parseDouble(match.substring(cur + 1, nextCur));
-                        cur = nextCur;
-                        break;
-                    case '(':
-                        brackets++;
-                        break;
-                    case ')':
-                        brackets--;
-                        break;
-                    default:
-                        mass += Acid.getAcid(ch).getMass();
-                }
-                cur++;
-            }
-            ans.put(scanId, value);
-        }
-        return ans;
-    }
-
-    public File getScanXmlFile(Scan scan) {
-        return new File(xmlScansDir, "scan" + scan.getId() + ".xml");
-    }
-
-    public File getModifiedScansDir() {
-        return new File(inputDir, "env" + mod);
-    }
     public Map<Integer, Scan> getScans() throws IOException {
 
         Map<Integer, Scan> scans = new HashMap<Integer, Scan>();

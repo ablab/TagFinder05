@@ -2,8 +2,6 @@ package ru.spbau.bioinf.tagfinder;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.jdom.Element;
-import ru.spbau.bioinf.tagfinder.util.XmlUtil;
 
 public class Protein {
     private int proteinId;
@@ -15,14 +13,6 @@ public class Protein {
         this.proteinId = proteinId;
         this.sequence = sequence;
         this.name = name;
-    }
-
-    public Element toXml() {
-        Element protein = new Element("protein");
-        XmlUtil.addElement(protein, "protein-id", proteinId);
-        XmlUtil.addElement(protein, "protein-name", name);
-        XmlUtil.addElement(protein, "protein-sequence", sequence);
-        return protein;
     }
 
     public int getProteinId() {

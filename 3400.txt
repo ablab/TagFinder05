@@ -1,0 +1,38 @@
+#Total number of scans for process: 216
+#Started at Thu Dec 29 14:21:34 MSK 2011
+3400 
+3407 
+3410 401 1.4816870125969695E-15 3 gi|16763797|ref|NP_459412.1| riboflavin synthase beta chain [Salmonella typhimurium LT2]
+3411 
+3415 4459 175.97856073708553 1 gi|17233491|ref|NP_490529.1| hydrophilic protein [Salmonella typhimurium LT2]
+3419 
+3424 
+3427 
+3438 
+3443 
+3448 
+3450 1882 2.9361471869023455E-23 1 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3454 1882 4.6613964676090354E-43 14 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3455 1882 4.66139652958961E-43 15 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3456 1882 4.661396417854617E-43 25 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3458 1882 4.661396465163311E-43 19 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3459 1882 4.661396476907017E-43 22 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3460 1882 4.66139644732328E-43 19 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3462 1882 4.489390963318656E-39 10 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3463 1882 3.286284527852147E-40 12 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3464 1882 1.3880706366289997E-38 13 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3466 1882 4.661396431593821E-43 20 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3467 1882 4.661396431644606E-43 11 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3468 1882 1.1240957668053181E-38 12 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3470 1882 4.661396449583201E-43 18 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3471 1882 6.992094724149114E-42 19 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3474 1882 8.761058559756162E-35 11 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3478 1882 4.661396454050758E-43 16 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3480 
+3482 
+3483 
+3484 
+3487 
+3492 
+3499 
+#interrupted at 17:00

@@ -130,4 +130,5 @@
 1372 5 524.5376594875889 1 gi|16763396|ref|NP_459011.1| putative alanine/glycine transport protein [Salmonella typhimurium LT2]
 1374 3836 492.76184759010386 1 gi|16767248|ref|NP_462863.1| putative oxidoreductase [Salmonella typhimurium LT2]
 1375 2724 46.5605092428142 1 gi|16766133|ref|NP_461748.1| alanyl-tRNA synthetase [Salmonella typhimurium LT2]
-1376 
+1376 3906 180.09229480717843 1 gi|16767319|ref|NP_462934.1| putative C4-dicarboxylate transport system [Salmonella typhimurium LT2]
+1378 

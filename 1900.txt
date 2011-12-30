@@ -35,4 +35,6 @@
 1946 1777 1.3184394667280547E-30 19 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
 1947 1777 4.518596460331255E-30 18 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
 1948 1777 2.852327186034808E-28 12 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
-1950 
+1950 1777 9.83965980707824E-29 11 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1951 1777 7.444508164450964E-27 12 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1952 

@@ -1,0 +1,79 @@
+#Total number of scans for process: 1818
+#Started at Fri Dec 30 10:22:58 MSK 2011
+800 
+802 
+804 
+806 
+807 2552 2.212442039678251E-4 2 gi|16765959|ref|NP_461574.1| anti sigma-E factor [Salmonella typhimurium LT2]
+808 
+810 1 19.208092950895928 2 gi|16763392|ref|NP_459007.1| aspartokinase I/homoserine dehydrogenase I [Salmonella typhimurium LT2]
+811 4067 49.69630589840621 1 gi|16767480|ref|NP_463095.1| maltose transport protein/repressor [Salmonella typhimurium LT2]
+812 3602 2.9852224994491545E-9 4 gi|16767012|ref|NP_462627.1| 50S ribosomal subunit protein L33 [Salmonella typhimurium LT2]
+814 3602 9.214390140957547E-12 3 gi|16767012|ref|NP_462627.1| 50S ribosomal subunit protein L33 [Salmonella typhimurium LT2]
+815 
+816 392 41.15804000330749 2 gi|16763787|ref|NP_459402.1| preprotein translocase [Salmonella typhimurium LT2]
+818 
+819 
+820 
+822 
+823 3188 8.667090632094239E-6 2 gi|16766598|ref|NP_462213.1| 50S ribosomal subunit protein L27 [Salmonella typhimurium LT2]
+824 2128 0.5988335240622535 1 gi|16765534|ref|NP_461149.1| fructose-specific transport protein [Salmonella typhimurium LT2]
+826 
+827 
+828 4112 98.99010285425508 1 gi|16767525|ref|NP_463140.1| acetyl-CoA synthetase [Salmonella typhimurium LT2]
+831 
+832 
+834 1405 249.78343515983772 1 gi|16764800|ref|NP_460415.1| putative peptide transport protein [Salmonella typhimurium LT2]
+835 
+836 3649 6.017243764835675 1 gi|16767060|ref|NP_462675.1| putative transport protein [Salmonella typhimurium LT2]
+838 
+839 
+840 
+842 
+843 
+844 
+846 
+847 2418 0.9683707980544066 1 gi|16765823|ref|NP_461438.1| putative diguanylate cyclase [Salmonella typhimurium LT2]
+848 
+850 
+851 4150 29.713702178672143 1 gi|16767563|ref|NP_463178.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+852 
+854 
+855 
+856 
+858 1182 98.47709748689451 1 gi|16764577|ref|NP_460192.1| spermidine/putrescine transporter [Salmonella typhimurium LT2]
+859 
+860 3316 4.087723867652123E-13 3 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+862 1613 77.55864619172102 1 gi|16765011|ref|NP_460626.1| putative exported protein [Salmonella typhimurium LT2]
+863 
+864 
+866 
+867 2564 49.96590685455841 2 gi|16765971|ref|NP_461586.1| putative acetyl-CoA synthetase [Salmonella typhimurium LT2]
+868 369 0.0933787611890683 3 gi|16763764|ref|NP_459379.1| phosphate starvation-inducible protein [Salmonella typhimurium LT2]
+870 177 8.52755283558726E-15 1 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+871 177 7.60197317358495E-17 4 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+872 4104 1.2236314257578027 1 gi|16767517|ref|NP_463132.1| putative glutathione S-transferase [Salmonella typhimurium LT2]
+874 144 0.4481690186124388 1 gi|16763537|ref|NP_459152.1| putative beta lactamase regulator [Salmonella typhimurium LT2]
+875 177 8.70139962625067E-19 7 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+876 3145 2.978686020930384 1 gi|16766555|ref|NP_462170.1| putative tagatose 6-phosphate kinase 1 [Salmonella typhimurium LT2]
+878 177 7.673298398777366E-17 2 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+879 177 1.5922352906171216E-13 2 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+880 177 1.3588972039416026E-15 3 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+882 2460 1.7442132780122748 1 gi|16765867|ref|NP_461482.1| putative hydrolase [Salmonella typhimurium LT2]
+884 867 32.673063531042395 1 gi|16764266|ref|NP_459881.1| hypothetical protein STM0904 [Salmonella typhimurium LT2]
+887 177 2.31797910249437E-15 2 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+888 177 9.223505795393141E-17 7 gi|16763570|ref|NP_459185.1| aspartate 1-decarboxylase [Salmonella typhimurium LT2]
+890 
+891 
+892 144 17.57376752523622 1 gi|16763537|ref|NP_459152.1| putative beta lactamase regulator [Salmonella typhimurium LT2]
+894 
+895 
+896 
+898 3299 5.971292548284565E-5 1 gi|16766708|ref|NP_462323.1| 50S ribosomal subunit protein X [Salmonella typhimurium LT2]
+899 2387 148.06615346563936 1 gi|16765792|ref|NP_461407.1| putative transferase [Salmonella typhimurium LT2]
+900 
+902 1176 167.1223493733061 1 gi|16764571|ref|NP_460186.1| transcription-repair coupling factor [Salmonella typhimurium LT2]
+903 1170 4.521724494696197 1 gi|16764565|ref|NP_460180.1| putative esterase [Salmonella typhimurium LT2]
+904 3299 2.9246007260314146E-4 1 gi|16766708|ref|NP_462323.1| 50S ribosomal subunit protein X [Salmonella typhimurium LT2]
+906 801 92.66524554796528 1 gi|16764200|ref|NP_459815.1| putative ABC transporter ATPase component [Salmonella typhimurium LT2]
+907 

@@ -1,0 +1,14 @@
+#Total number of scans for process: 1584
+#Started at Fri Dec 30 17:26:54 GMT+04:00 2011
+1127 3949 4.918513306562536E-4 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1128 3975 31.76387855571125 1 gi|16767388|ref|NP_463003.1| argininosuccinate lyase [Salmonella typhimurium LT2]
+1130 4353 6.931287717234712 2 gi|16767770|ref|NP_463385.1| endonuclease R [Salmonella typhimurium LT2]
+1131 3392 3.910411669189607 2 gi|16766801|ref|NP_462416.1| 4-alpha-glucanotransferase [Salmonella typhimurium LT2]
+1132 3949 1.1060020099487945E-12 5 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1134 3949 2.119478487835318E-12 2 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1135 3949 5.353996730321658E-15 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1136 4243 776.2756963972138 1 gi|16767656|ref|NP_463271.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1138 3949 2.23702523456594E-18 1 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1139 3949 1.2347872816754864E-23 5 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1140 
+1142 

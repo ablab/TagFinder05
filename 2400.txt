@@ -1,0 +1,25 @@
+#Total number of scans for process: 718
+#Started at Fri Dec 30 17:05:49 MSK 2011
+2402 
+2403 
+2406 
+2407 
+2410 
+2411 
+2412 946 2.420077192978987E-19 1 gi|16764342|ref|NP_459957.1| integration host factor beta subunit [Salmonella typhimurium LT2]
+2414 
+2415 
+2416 
+2420 806 94.83502016368281 1 gi|16764205|ref|NP_459820.1| putative pyruvate formate lyase [Salmonella typhimurium LT2]
+2422 4011 3.488384688552162E-17 2 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2423 3705 7.252616256464405 2 gi|16767117|ref|NP_462732.1| putative permease [Salmonella typhimurium LT2]
+2424 4011 4.771483007887356E-21 4 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2426 4011 1.2053150164881246E-21 2 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2427 799 65.28843728939137 2 gi|16764198|ref|NP_459813.1| putative transporter [Salmonella typhimurium LT2]
+2428 4011 5.787752222156452E-29 20 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2430 4011 8.049136643715693E-11 3 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2431 4011 1.1608355413436034E-23 6 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2432 3287 21.544767409825 1 gi|16766696|ref|NP_462311.1| 10-formyltetrahydrofolate/L-methionyl-tRNA N-formyltransferase [Salmonella typhimurium LT2]
+2434 4011 5.5347325821329034E-30 7 gi|16767424|ref|NP_463039.1| DNA-binding protein HU-alpha [Salmonella typhimurium LT2]
+2435 275 459.2089099939729 1 gi|16763668|ref|NP_459283.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2436 

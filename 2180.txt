@@ -1,0 +1,72 @@
+#Total number of scans for process: 860
+#Started at Fri Dec 30 16:45:12 MSK 2011
+2180 3304 0.0017895775502162106 2 gi|16766713|ref|NP_462328.1| 50S ribosomal subunit protein L18 [Salmonella typhimurium LT2]
+2182 
+2183 
+2184 
+2190 
+2194 
+2195 
+2196 1812 2.3333096054884517E-5 2 gi|16765215|ref|NP_460830.1| putative exported protein [Salmonella typhimurium LT2]
+2199 
+2200 
+2202 
+2203 
+2204 
+2206 
+2208 
+2210 
+2211 
+2212 
+2214 
+2215 
+2216 
+2218 
+2219 
+2220 
+2222 
+2223 
+2224 3315 8.84834531175397E-13 2 gi|16766724|ref|NP_462339.1| 50S ribosomal subunit protein L22 [Salmonella typhimurium LT2]
+2226 
+2227 
+2228 
+2230 3411 112.53155634662097 2 gi|16766820|ref|NP_462435.1| glycogen phosphorylase [Salmonella typhimurium LT2]
+2231 66 91.39772880481468 2 gi|16763457|ref|NP_459072.1| carbamoyl-phosphate synthase large subunit [Salmonella typhimurium LT2]
+2232 2191 2.049024900828016 1 gi|16765596|ref|NP_461211.1| putative sensor kinase [Salmonella typhimurium LT2]
+2234 1657 4.154327492699678 3 gi|16765056|ref|NP_460671.1| aconitate hydratase 1 [Salmonella typhimurium LT2]
+2235 3312 0.0536231543290167 1 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2236 3312 1.7431800012516506E-4 5 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2238 
+2239 3312 4.333631290288229 5 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2240 
+2244 
+2250 
+2251 222 0.7585130213524881 3 gi|16763615|ref|NP_459230.1| outer membrane protein H precursor [Salmonella typhimurium LT2]
+2252 
+2254 222 9.531048645231202E-8 3 gi|16763615|ref|NP_459230.1| outer membrane protein H precursor [Salmonella typhimurium LT2]
+2255 2072 7.576032701666146E-8 3 gi|16765477|ref|NP_461092.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2256 
+2258 1144 182.87574402716794 2 gi|16764539|ref|NP_460154.1| flagellar hook-associated protein 1 [Salmonella typhimurium LT2]
+2259 1736 5.490349562088101 2 gi|16765137|ref|NP_460752.1| trehalase [Salmonella typhimurium LT2]
+2260 2072 1.7077941101889267E-12 2 gi|16765477|ref|NP_461092.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2262 2072 3.3514094048126797E-21 4 gi|16765477|ref|NP_461092.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2263 2072 3.1036479456770096E-26 1 gi|16765477|ref|NP_461092.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2264 
+2266 
+2268 
+2270 
+2272 
+2274 
+2275 
+2278 
+2279 
+2280 
+2282 2053 68.65794624438585 1 gi|16765459|ref|NP_461074.1| putative transport protein [Salmonella typhimurium LT2]
+2283 
+2284 
+2286 
+2287 
+2288 
+2290 
+2291 
+2292 

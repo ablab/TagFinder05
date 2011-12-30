@@ -1,0 +1,6 @@
+#Total number of scans for process: 1551
+#Started at Fri Dec 30 17:23:00 GMT+04:00 2011
+1171 3949 6.063314474028515E-9 4 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1172 
+1174 3949 2.866440357007644E-12 6 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1175 

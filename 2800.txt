@@ -1,0 +1,57 @@
+#Total number of scans for process: 508
+#Started at Fri Dec 30 14:58:46 MSK 2011
+2804 
+2806 
+2807 
+2808 
+2810 3206 1.1383130189099743E-5 2 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2811 3206 9.372913350899444E-7 2 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2812 3206 1.2502319227187637E-5 2 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2814 3206 3.0440672798498106E-11 4 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2815 3206 2.6717150736538392E-11 6 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2816 3206 3.493336194869681E-14 3 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2818 
+2819 
+2820 
+2822 
+2823 
+2824 
+2826 
+2830 
+2831 
+2832 
+2834 1787 105.699646912631 1 gi|16765188|ref|NP_460803.1| putative nucleotide-binding protein [Salmonella typhimurium LT2]
+2835 
+2836 435 1.2675139898891502E-4 3 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2838 4105 2.208190178966593 2 gi|16767518|ref|NP_463133.1| hypothetical protein STM4268 [Salmonella typhimurium LT2]
+2839 435 6.787606561421309E-5 4 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2840 
+2842 
+2843 1206 2.268799891988755E-15 7 gi|16764601|ref|NP_460216.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2846 435 7.6697951641772125E-25 10 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2847 435 3.362251707502497E-25 13 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2848 3439 82.20131435970279 5 gi|16766849|ref|NP_462464.1| high-affinity branched-chain amino acid transporter [Salmonella typhimurium LT2]
+2850 435 4.020767613112476E-24 4 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2851 1901 423.0906804762141 1 gi|16765307|ref|NP_460922.1| flagellar M-ring protein [Salmonella typhimurium LT2]
+2852 435 1.1770477455636718E-22 10 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2854 435 2.36013959552866E-19 7 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2855 2269 1.8648622408807514 2 gi|16765674|ref|NP_461289.1| putative phosphoesterase [Salmonella typhimurium LT2]
+2856 1386 2.9733361463144903E-43 4 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2858 
+2859 1386 2.9733361654618137E-43 8 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2860 1386 1.1691473881310868E-30 5 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2862 1386 3.5571804392613864E-38 10 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2863 
+2864 435 5.37681963568551E-18 7 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2866 
+2867 435 4.4709577461703204E-26 7 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2868 1027 57.58791473972434 1 gi|16764420|ref|NP_460035.1| putative N6-adenine-specific DNA methylase [Salmonella typhimurium LT2]
+2870 
+2871 2053 3.981302723341018 1 gi|16765459|ref|NP_461074.1| putative transport protein [Salmonella typhimurium LT2]
+2872 96 5.429583128974887 4 gi|16763488|ref|NP_459103.1| putative secreted protein [Salmonella typhimurium LT2]
+2875 435 1.0079027993687807E-13 6 gi|16763832|ref|NP_459447.1| DNA-binding protein HU-beta [Salmonella typhimurium LT2]
+2876 1386 3.791990518992574E-21 2 gi|16764781|ref|NP_460396.1| putative glutaredoxin protein [Salmonella typhimurium LT2]
+2878 
+2879 
+2880 
+2882 

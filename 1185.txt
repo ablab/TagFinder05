@@ -1,0 +1,32 @@
+#Total number of scans for process: 1540
+#Started at Fri Dec 30 17:32:14 GMT+04:00 2011
+1186 3949 3.3459471102863116E-6 6 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1187 
+1188 
+1190 
+1191 
+1192 3751 37.27103865533874 1 gi|16767163|ref|NP_462778.1| putative regulatory protein [Salmonella typhimurium LT2]
+1194 3949 1.140520686095233E-11 5 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1195 3949 7.250370149581858E-10 4 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1196 3911 43.816996501837096 1 gi|16767324|ref|NP_462939.1| sensor kinase [Salmonella typhimurium LT2]
+1198 2804 487.34957488776905 1 gi|16766215|ref|NP_461830.1| methyl-directed mismatch repair protein [Salmonella typhimurium LT2]
+1199 
+1200 
+1202 
+1203 
+1204 
+1206 
+1207 
+1208 
+1210 
+1211 
+1212 
+1214 3949 0.0020467912589140097 1 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1215 
+1216 
+1218 3341 39.881352011244886 2 gi|16766750|ref|NP_462365.1| putative hydrolase [Salmonella typhimurium LT2]
+1219 3949 3.105618147928348E-5 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1220 3949 0.0020828772593387765 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1222 3473 31.23388416976439 2 gi|16766883|ref|NP_462498.1| glutathione oxidoreductase [Salmonella typhimurium LT2]
+1223 
+1224 

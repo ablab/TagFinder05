@@ -1,0 +1,38 @@
+#Total number of scans for process: 1027
+#Started at Fri Dec 30 15:57:35 MSK 2011
+1900 
+1902 
+1903 
+1904 
+1906 
+1907 
+1908 
+1910 
+1911 
+1912 
+1914 4098 179.41165629205221 2 gi|16767511|ref|NP_463126.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1915 4099 46.32297659802786 1 gi|16767512|ref|NP_463127.1| putative ABC-type bacteriocin/lantibiotic exporter [Salmonella typhimurium LT2]
+1916 918 3.763306006121405E-24 10 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1918 3564 18.84909300777484 2 gi|16766974|ref|NP_462589.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1919 918 2.072102275266651E-23 5 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1920 
+1922 918 9.766693826896022E-22 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1923 918 9.584465381693488E-23 2 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1924 918 2.8985801781267253E-25 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1926 
+1927 2744 24.892053128933878 2 gi|16766153|ref|NP_461768.1| hydrogenase [Salmonella typhimurium LT2]
+1928 918 1.2005417334993675E-26 7 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1930 918 5.587167130464619E-21 7 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1931 
+1932 918 6.080366494153546E-22 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1934 918 1.1835028198038272E-25 12 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1935 918 1.0495742719851511E-20 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1936 
+1940 
+1942 
+1943 
+1944 135 6.881311284204126E-17 5 gi|16763528|ref|NP_459143.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1946 1777 1.3184394667280547E-30 19 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1947 1777 4.518596460331255E-30 18 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1948 1777 2.852327186034808E-28 12 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1950 

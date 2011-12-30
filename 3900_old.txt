@@ -1,5 +1,0 @@
-#Total number of scans for process: 72
-#Started at Thu Dec 29 15:22:43 MSK 2011
-3910 
-
-#interrupted at 15:23

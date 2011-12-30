@@ -1,0 +1,48 @@
+#Total number of scans for process: 443
+#Started at Fri Dec 30 14:14:30 MSK 2011
+2902 3936 87.87892647261604 2 gi|16767349|ref|NP_462964.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2906 
+2910 
+2912 
+2914 
+2916 
+2918 
+2919 
+2920 
+2926 
+2930 
+2932 
+2935 
+2942 
+2943 
+2944 
+2946 
+2947 
+2948 
+2950 
+2951 
+2952 
+2954 
+2955 2443 4.524896875452039 1 gi|16765850|ref|NP_461465.1| putative anaerobic dimethylsulfoxide reductase [Salmonella typhimurium LT2]
+2959 4098 30.968194119328068 2 gi|16767511|ref|NP_463126.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2960 3477 0.3595402020153067 1 gi|16766887|ref|NP_462502.1| putative phosphosugar isomerase [Salmonella typhimurium LT2]
+2962 
+2963 4524 197.38521673200262 1 gi|17233470|ref|NP_490592.1| oriT nickase/helicase [Salmonella typhimurium LT2]
+2967 1083 1.8498219651334228E-23 9 gi|16764476|ref|NP_460091.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2968 1083 1.1216707970562434E-18 3 gi|16764476|ref|NP_460091.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2970 3941 1.1367487288567582E-28 9 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2971 3941 1.2997660901429547E-22 3 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2978 
+2979 
+2980 
+2982 
+2984 
+2986 
+2987 
+2988 
+2990 
+2995 
+2996 
+2998 348 23.19075517740724 3 gi|16763743|ref|NP_459358.1| putative transcriptional regulator [Salmonella typhimurium LT2]
+2999 3941 2.0134296499718114E-19 16 gi|16767354|ref|NP_462969.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3000 

@@ -1,0 +1,18 @@
+#Total number of scans for process: 1567
+#Started at Fri Dec 30 16:25:28 GMT+04:00 2011
+1150 3949 3.6086918437597856E-14 6 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1151 4360 164.80133350257935 2 gi|16767777|ref|NP_463392.1| methyl-accepting chemotaxis protein I [Salmonella typhimurium LT2]
+1152 3949 7.897614084137255E-21 6 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1154 
+1155 3949 1.9872516780597674E-9 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1156 
+1158 3949 7.092886563078926E-13 5 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1159 
+1160 
+1162 3949 6.469323698444799E-12 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1163 3949 6.726815117732072E-13 4 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1164 3277 30.749153579202183 2 gi|16766686|ref|NP_462301.1| multidrug transport protein [Salmonella typhimurium LT2]
+1166 3949 8.40946117762482E-17 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1167 3949 3.888368140787106E-15 3 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]
+1168 3277 22.697562425900863 3 gi|16766686|ref|NP_462301.1| multidrug transport protein [Salmonella typhimurium LT2]
+1170 3949 2.672542067205163E-9 2 gi|16767362|ref|NP_462977.1| 50S ribosomal subunit protein L31 [Salmonella typhimurium LT2]

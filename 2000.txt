@@ -101,4 +101,3 @@
 2176 
 2178 60 55.36873905378559 3 gi|16763450|ref|NP_459065.1| putative citrate lyase beta chain [Salmonella typhimurium LT2]
 2179 
-2180 

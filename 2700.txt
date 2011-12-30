@@ -1,0 +1,52 @@
+#Total number of scans for process: 553
+#Started at Fri Dec 30 15:30:24 MSK 2011
+2700 
+2702 
+2703 1657 190.4858377611532 1 gi|16765056|ref|NP_460671.1| aconitate hydratase 1 [Salmonella typhimurium LT2]
+2704 
+2706 
+2707 
+2708 
+2711 
+2712 
+2714 
+2716 
+2730 1660 6.636162734664188E-6 2 gi|16765059|ref|NP_460674.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2731 1660 1.143436181096029E-6 1 gi|16765059|ref|NP_460674.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2735 2704 144.9343349960591 1 gi|16766114|ref|NP_461729.1| putative regulatory protein [Salmonella typhimurium LT2]
+2736 3326 6.33934576673407 1 gi|16766735|ref|NP_462350.1| protein chain elongation factor EF-G [Salmonella typhimurium LT2]
+2738 
+2739 
+2740 
+2742 
+2746 
+2748 
+2750 
+2751 
+2752 
+2754 
+2755 
+2758 
+2759 
+2762 
+2766 
+2768 
+2770 
+2771 
+2772 
+2774 
+2775 
+2776 
+2778 
+2779 
+2782 
+2783 
+2787 
+2792 
+2794 
+2796 
+2804 
+2806 
+2807 
+2808 
+2810 

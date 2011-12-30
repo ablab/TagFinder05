@@ -1,0 +1,90 @@
+#Total number of scans for process: 961
+#Started at Fri Dec 30 11:04:03 MSK 2011
+2000 4301 1036.6160903629961 3 gi|16767719|ref|NP_463334.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2002 3763 361.7938810057739 2 gi|16767175|ref|NP_462790.1| putative magnesium chelatase subunit ChlI [Salmonella typhimurium LT2]
+2006 
+2007 4247 576194.9099962789 1 gi|16767660|ref|NP_463275.1| inorganic pyrophosphatase [Salmonella typhimurium LT2]
+2008 813 0.0963987839522338 1 gi|16764212|ref|NP_459827.1| putative ABC transporter periplasmic binding protein [Salmonella typhimurium LT2]
+2010 139 227.91726704976526 1 gi|16763532|ref|NP_459147.1| putative type IV pilin assembly protein [Salmonella typhimurium LT2]
+2011 
+2012 
+2015 
+2016 3216 134.14478841880498 2 gi|16766626|ref|NP_462241.1| glutamate synthase small subunit [Salmonella typhimurium LT2]
+2019 
+2020 
+2032 
+2035 608 2.4747966652951404E-19 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2036 608 2.039751511646879E-21 4 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2038 608 3.8894804288802695E-22 6 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2039 608 1.7875959567243048E-28 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2040 608 3.162905957089836E-29 5 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2042 608 7.315248621588017E-23 2 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2043 608 5.366408787426779E-23 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2044 608 1.399668125626743E-26 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2046 608 1.4484254044960345E-20 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2047 608 3.1442977201521065E-23 6 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2048 608 2.8420811612594686E-27 8 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2050 608 1.0842264925255812E-38 4 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2051 3631 15.148889989794986 3 gi|16767041|ref|NP_462656.1| putative autotransporter [Salmonella typhimurium LT2]
+2052 608 2.361976146535777E-23 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2054 608 2.5221876785117093E-37 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2055 608 3.661094070874116E-15 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2056 
+2060 608 4.0225291485489935E-5 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2062 2584 4.977072223212979E-21 4 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2063 2052 11.520700433219783 2 gi|16765458|ref|NP_461073.1| outer membrane putative efflux transporter [Salmonella typhimurium LT2]
+2064 2584 1.598203707656921E-12 5 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2066 
+2067 1280 32.94336143903931 1 gi|16764674|ref|NP_460289.1| putative regulatory protein [Salmonella typhimurium LT2]
+2068 
+2070 
+2071 11 173.03954911590253 1 gi|16763402|ref|NP_459017.1| chaperone Hsp70 [Salmonella typhimurium LT2]
+2072 
+2074 2483 777.3490693943693 1 gi|16765890|ref|NP_461505.1| putative phosphotransferase system IIB component [Salmonella typhimurium LT2]
+2075 1914 40.42075650993203 1 gi|16765320|ref|NP_460935.1| colanic acid capsular biosynthesis activation protein A [Salmonella typhimurium LT2]
+2076 2584 4.77732675344705E-19 4 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2079 
+2080 
+2082 
+2084 
+2087 
+2091 2194 82.15068941489196 1 gi|16765599|ref|NP_461214.1| DNA gyrase subunit A [Salmonella typhimurium LT2]
+2092 608 1.3082930891098252E-12 1 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2094 3627 4.762114227536164 1 gi|16767037|ref|NP_462652.1| ATP binding protein [Salmonella typhimurium LT2]
+2096 1853 989.6468723767503 1 gi|16765256|ref|NP_460871.1| flagellar export controller [Salmonella typhimurium LT2]
+2098 
+2099 
+2100 
+2102 
+2103 
+2104 
+2106 
+2112 
+2114 
+2119 
+2120 
+2122 1914 13.550878196324511 1 gi|16765320|ref|NP_460935.1| colanic acid capsular biosynthesis activation protein A [Salmonella typhimurium LT2]
+2123 3137 62.59571935035447 1 gi|16766547|ref|NP_462162.1| 2-dehydro-3-deoxy-galactarate aldolase [Salmonella typhimurium LT2]
+2124 2444 5.903129926406414 1 gi|16765851|ref|NP_461466.1| penicillin-binding protein 1c [Salmonella typhimurium LT2]
+2127 3500 16.008959816180315 2 gi|16766910|ref|NP_462525.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2130 
+2134 
+2135 624 36.71952993299003 1 gi|16764022|ref|NP_459637.1| putative nicotinic acid mononucleotide adenylyltransferase [Salmonella typhimurium LT2]
+2136 
+2139 
+2142 
+2143 
+2144 
+2146 
+2147 
+2148 
+2150 
+2151 
+2152 
+2154 
+2155 
+2156 
+2158 
+2159 
+2160 
+2162 

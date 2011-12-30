@@ -8,11 +8,7 @@
 3819 
 3820 
 3822 2302 4.304216852533371E-40 6 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
-3823 2011-12-30 09:49:55,899 [Thread-137] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0029756558427582462
-2011-12-30 09:50:10,215 [Thread-138] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0029756558427582462
-2011-12-30 09:50:24,585 [Thread-139] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0029756558427582462
-2011-12-30 09:50:39,061 [Thread-140] ERROR edu.ucsd.msalign.spec.msgf7.CompTable - p 0.0 q 0.0029756558427582462
-2302 4.709208787484985E-43 4 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3823 2302 4.709208787484985E-43 4 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
 3824 2302 5.498795490293974E-35 3 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
 3826 2302 8.235087585412095E-37 7 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
 3827 

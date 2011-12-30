@@ -87,4 +87,18 @@
 2158 
 2159 
 2160 
-2162 
+2162 3304 1.8414486422879212E-29 3 gi|16766713|ref|NP_462328.1| 50S ribosomal subunit protein L18 [Salmonella typhimurium LT2]
+2163 1294 83.2321758116159 1 gi|16764689|ref|NP_460304.1| phenylalanine tRNA synthetase subunit beta [Salmonella typhimurium LT2]
+2164 568 635.9729481142464 2 gi|16763966|ref|NP_459581.1| ferric enterobactin/enterochelin transporter [Salmonella typhimurium LT2]
+2166 2203 13.191878411195583 1 gi|16765608|ref|NP_461223.1| putative transcriptional regulator [Salmonella typhimurium LT2]
+2167 
+2168 3304 1.5610465226343799E-31 9 gi|16766713|ref|NP_462328.1| 50S ribosomal subunit protein L18 [Salmonella typhimurium LT2]
+2170 
+2171 
+2172 
+2174 2237 195.26749940265682 2 gi|16765642|ref|NP_461257.1| hypothetical protein STM2315 [Salmonella typhimurium LT2]
+2175 4286 4.173163595295454 1 gi|16767703|ref|NP_463318.1| putative translation initiation inhibitor [Salmonella typhimurium LT2]
+2176 
+2178 60 55.36873905378559 3 gi|16763450|ref|NP_459065.1| putative citrate lyase beta chain [Salmonella typhimurium LT2]
+2179 
+2180 

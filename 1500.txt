@@ -1,0 +1,555 @@
+#Total number of scans for process: 1312
+#Started at Thu Dec 29 13:25:46 GMT+04:00 2011
+1500 4414 34.184688976129465 1 gi|16767831|ref|NP_463446.1| colicin E2 tolerance protein [Salmonella typhimurium LT2]
+1502 4414 72.24516741959873 1 gi|16767831|ref|NP_463446.1| colicin E2 tolerance protein [Salmonella typhimurium LT2]
+1503 
+1504 1369 774.3354013601851 1 gi|16764764|ref|NP_460379.1| type III secretion system apparatus protein [Salmonella typhimurium LT2]
+1506 3302 4.122046823613743E-5 3 gi|16766711|ref|NP_462326.1| 50S ribosomal subunit protein L30 [Salmonella typhimurium LT2]
+1507 
+1508 
+1510 758 152.9347164202455 1 gi|16764156|ref|NP_459771.1| 7,8-diaminopelargonic acid synthetase [Salmonella typhimurium LT2]
+1511 
+1512 
+1514 1039 0.6749243863433285 1 gi|16764432|ref|NP_460047.1| putative transporter [Salmonella typhimurium LT2]
+1515 
+1516 3680 291.05683583721907 1 gi|16767092|ref|NP_462707.1| putative transport protein [Salmonella typhimurium LT2]
+1518 
+1519 1112 80.68528627634092 1 gi|16764507|ref|NP_460122.1| membrane glycosyltransferase [Salmonella typhimurium LT2]
+1520 513 1207.5175479312145 1 gi|16763909|ref|NP_459524.1| putative acyl-CoA synthetase [Salmonella typhimurium LT2]
+1522 
+1523 
+1524 2013 434.5495502584189 2 gi|16765419|ref|NP_461034.1| CDP-abequose synthase [Salmonella typhimurium LT2]
+1526 
+1527 
+1528 
+1530 
+1531 
+1532 
+1534 
+1535 
+1538 
+1539 
+1540 43 3.956337559081443E-6 3 gi|16763433|ref|NP_459048.1| 30S ribosomal subunit protein S20 [Salmonella typhimurium LT2]
+1542 
+1543 199 464.94346523467664 1 gi|16763592|ref|NP_459207.1| glutamate-1-semialdehyde aminotransferase [Salmonella typhimurium LT2]
+1544 
+1546 
+1547 
+1548 43 6.233775612517637E-25 5 gi|16763433|ref|NP_459048.1| 30S ribosomal subunit protein S20 [Salmonella typhimurium LT2]
+1550 
+1551 43 8.320025828787814E-25 4 gi|16763433|ref|NP_459048.1| 30S ribosomal subunit protein S20 [Salmonella typhimurium LT2]
+1552 1907 13.24862615192678 1 gi|16765313|ref|NP_460928.1| flagellar biosynthetic protein [Salmonella typhimurium LT2]
+1554 579 93.72170196210612 1 gi|16763977|ref|NP_459592.1| carbon starvation protein [Salmonella typhimurium LT2]
+1555 3316 6.423816190517992E-21 5 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1556 3316 3.008715743974386E-23 2 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1558 3316 8.070498221925751E-24 6 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1559 3316 5.829514138469803E-24 4 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1560 3316 1.7324497443964162E-37 6 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1562 3316 2.6582851142142574E-28 3 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1563 3316 2.6181602299419442E-21 5 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1564 3316 1.241258653783148E-18 1 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1566 3316 2.2313838760246466E-33 2 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1567 2186 2.1645670093241773 2 gi|16765591|ref|NP_461206.1| putative ABC-type multidrug/protein/lipid transport system ATPase component [Salmonella typhimurium LT2]
+1568 
+1570 3316 1.2678837525399274E-19 2 gi|16766725|ref|NP_462340.1| 30S ribosomal subunit protein S19 [Salmonella typhimurium LT2]
+1571 
+1572 2736 92.8349232059357 1 gi|16766145|ref|NP_461760.1| putative regulatory protein [Salmonella typhimurium LT2]
+1574 2724 56.835163852949435 1 gi|16766133|ref|NP_461748.1| alanyl-tRNA synthetase [Salmonella typhimurium LT2]
+1575 
+1576 2012 1.1531288137864963 2 gi|16765418|ref|NP_461033.1| putative O-antigen transferase [Salmonella typhimurium LT2]
+1578 
+1579 
+1580 
+1582 
+1583 
+1586 
+1587 
+1588 1220 230.4190213060579 1 gi|16764615|ref|NP_460230.1| aminoglycoside adenyltransferase [Salmonella typhimurium LT2]
+1590 
+1591 964 9.003803255641975 1 gi|16764360|ref|NP_459975.1| asparagine tRNA synthetase [Salmonella typhimurium LT2]
+1592 
+1594 
+1595 
+1596 
+1598 
+1599 
+1600 
+1602 3647 0.03723114285658675 2 gi|16767058|ref|NP_462673.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1603 
+1604 
+1606 1827 23.69467925797069 1 gi|16765230|ref|NP_460845.1| pyruvate kinase II [Salmonella typhimurium LT2]
+1607 
+1608 3647 0.01285443762801481 2 gi|16767058|ref|NP_462673.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1610 
+1611 
+1612 3143 17.361093059150466 1 gi|16766553|ref|NP_462168.1| putative phosphotransferase system fructose-specific component IIB [Salmonella typhimurium LT2]
+1614 
+1615 
+1616 1381 174.79868535034413 2 gi|16764776|ref|NP_460391.1| putative transport protein [Salmonella typhimurium LT2]
+1618 2331 22.408585965629307 1 gi|16765736|ref|NP_461351.1| hypothetical protein STM2410 [Salmonella typhimurium LT2]
+1619 
+1620 11 286.4084543421319 1 gi|16763402|ref|NP_459017.1| chaperone Hsp70 [Salmonella typhimurium LT2]
+1622 
+1623 
+1624 
+1626 
+1627 
+1628 
+1630 
+1631 
+1632 
+1634 
+1635 
+1636 
+1638 3274 534.971329816491 1 gi|16766683|ref|NP_462298.1| putative signal transduction protein [Salmonella typhimurium LT2]
+1639 
+1640 1305 353.1873698563358 1 gi|16764700|ref|NP_460315.1| phosphoenolpyruvate synthase [Salmonella typhimurium LT2]
+1642 
+1643 
+1644 
+1646 
+1647 
+1648 
+1650 
+1652 
+1654 
+1655 
+1656 
+1658 
+1659 
+1660 
+1662 1814 1.5918874511837677E-11 8 gi|16765217|ref|NP_460832.1| putative copper resistance protein [Salmonella typhimurium LT2]
+1663 
+1664 18 9.409207637171557 1 gi|16763409|ref|NP_459024.1| putative hydroxymethyltransferase [Salmonella typhimurium LT2]
+1666 
+1667 
+1668 
+1670 1486 141.19807356073264 1 gi|16764883|ref|NP_460498.1| putative hydrogenase-1 large subunit [Salmonella typhimurium LT2]
+1671 
+1672 3958 370.32495168806935 1 gi|16767371|ref|NP_462986.1| 5,10-methylenetetrahydrofolate reductase [Salmonella typhimurium LT2]
+1674 983 3.4454953249426436E-24 4 gi|16764378|ref|NP_459993.1| hypothetical protein STM1018 [Phage Gifsy-2]
+1675 2535 2.7584062985102407E-6 2 gi|16765942|ref|NP_461557.1| hypothetical protein STM2622 [Salmonella typhimurium LT2]
+1676 
+1678 
+1679 
+1680 
+1682 
+1683 
+1684 
+1686 
+1687 275 323.798459988861 1 gi|16763668|ref|NP_459283.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1688 
+1690 
+1692 
+1694 
+1695 
+1698 
+1699 
+1700 
+1702 4321 269.12455022414224 1 gi|16767739|ref|NP_463354.1| putative type II restriction enzyme methylase subunit [Salmonella typhimurium LT2]
+1703 
+1704 1027 561.6998513401488 1 gi|16764420|ref|NP_460035.1| putative N6-adenine-specific DNA methylase [Salmonella typhimurium LT2]
+1706 440 49.384858163382354 1 gi|16763837|ref|NP_459452.1| putative ABC transporter periplasmic binding protein [Salmonella typhimurium LT2]
+1707 567 104.12200419545059 1 gi|16763965|ref|NP_459580.1| enterobactin synthetase component F [Salmonella typhimurium LT2]
+1708 
+1710 3311 3.9222453475305425E-25 2 gi|16766720|ref|NP_462335.1| 30S ribosomal subunit protein S17 [Salmonella typhimurium LT2]
+1711 3311 1.3201630588351574E-17 2 gi|16766720|ref|NP_462335.1| 30S ribosomal subunit protein S17 [Salmonella typhimurium LT2]
+1712 3311 4.577789938616717E-13 2 gi|16766720|ref|NP_462335.1| 30S ribosomal subunit protein S17 [Salmonella typhimurium LT2]
+1714 
+1715 806 322.3744497134247 1 gi|16764205|ref|NP_459820.1| putative pyruvate formate lyase [Salmonella typhimurium LT2]
+1716 
+1718 4226 27.20443841315405 6 gi|16767639|ref|NP_463254.1| 30S ribosomal subunit protein S18 [Salmonella typhimurium LT2]
+1719 4226 0.03634029965983207 2 gi|16767639|ref|NP_463254.1| 30S ribosomal subunit protein S18 [Salmonella typhimurium LT2]
+1720 1161 17.10895494683915 2 gi|16764556|ref|NP_460171.1| DNA polymerase III delta prime subunit [Salmonella typhimurium LT2]
+1722 
+1723 4226 2.9638924027247575E-11 2 gi|16767639|ref|NP_463254.1| 30S ribosomal subunit protein S18 [Salmonella typhimurium LT2]
+1724 3934 152.0327897644502 1 gi|16767347|ref|NP_462962.1| triosephosphate isomerase [Salmonella typhimurium LT2]
+1726 2050 3.8318386308219106 1 gi|16765456|ref|NP_461071.1| putative secretion protein [Salmonella typhimurium LT2]
+1727 
+1728 513 6.424158571851122 1 gi|16763909|ref|NP_459524.1| putative acyl-CoA synthetase [Salmonella typhimurium LT2]
+1730 
+1731 
+1732 
+1735 3699 248.07275150084823 2 gi|16767111|ref|NP_462726.1| sensor kinase [Salmonella typhimurium LT2]
+1736 
+1738 3200 177.33345994171853 2 gi|16766610|ref|NP_462225.1| putative sugar phosphate isomerase [Salmonella typhimurium LT2]
+1739 3171 1.0417298518411068E-9 6 gi|16766581|ref|NP_462196.1| 30S ribosomal subunit protein S15 [Salmonella typhimurium LT2]
+1740 3 13.04250272192263 1 gi|16763394|ref|NP_459009.1| threonine synthase [Salmonella typhimurium LT2]
+1742 18 19.194774731909682 1 gi|16763409|ref|NP_459024.1| putative hydroxymethyltransferase [Salmonella typhimurium LT2]
+1743 341 198.69963490438843 3 gi|16763736|ref|NP_459351.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1744 2281 7.150925308694503 2 gi|16765686|ref|NP_461301.1| putative amino acid transporter [Salmonella typhimurium LT2]
+1746 2443 11.663463345962473 1 gi|16765850|ref|NP_461465.1| putative anaerobic dimethylsulfoxide reductase [Salmonella typhimurium LT2]
+1747 
+1748 2331 6.587596064547638 3 gi|16765736|ref|NP_461351.1| hypothetical protein STM2410 [Salmonella typhimurium LT2]
+1750 4413 58.72858079097899 1 gi|16767830|ref|NP_463445.1| sensor kinase [Salmonella typhimurium LT2]
+1751 
+1752 2212 60.07307572527398 2 gi|16765617|ref|NP_461232.1| putative transport protein [Salmonella typhimurium LT2]
+1754 4077 8.958479933683749E-33 7 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1755 
+1756 4077 2.9634219441658967E-36 7 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1758 4077 2.9800987669914675E-18 2 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1759 4077 2.140279417750814E-33 11 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1760 3957 15.068191921408111 3 gi|16767370|ref|NP_462985.1| putative 5'-nucleotidase/2',3'-cyclic phosphodiesterase [Salmonella typhimurium LT2]
+1762 4077 3.2300442347177384E-35 13 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1763 4077 3.981582446503194E-37 4 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1764 4077 1.599105197501793E-34 7 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1766 4077 1.5901328508532284E-28 4 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1767 4077 2.2618244963007122E-25 7 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1768 4077 1.1106411918800545E-35 10 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1770 4077 2.488709606289854E-35 2 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1771 4077 2.6965690459483988E-14 1 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1772 4077 2.5135846829480075E-33 9 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1774 4077 1.1591266552288932E-30 6 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1775 4077 1.3184185913443012E-22 1 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1776 4077 1.3455670488761778E-33 14 gi|16767490|ref|NP_463105.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1778 4067 39.76117449895845 1 gi|16767480|ref|NP_463095.1| maltose transport protein/repressor [Salmonella typhimurium LT2]
+1779 3411 254.12436264791384 1 gi|16766820|ref|NP_462435.1| glycogen phosphorylase [Salmonella typhimurium LT2]
+1782 
+1783 
+1784 
+1786 
+1787 
+1788 
+1790 
+1791 
+1794 
+1795 
+1796 
+1798 
+1799 
+1800 
+1802 
+1803 2980 19.40642445573703 1 gi|16766390|ref|NP_462005.1| putative inner membrane protein [Salmonella typhimurium LT2]
+1804 
+1806 3577 1.0775321720323967E-24 5 gi|16766987|ref|NP_462602.1| glutaredoxin 3 [Salmonella typhimurium LT2]
+1807 4068 40.54186389258199 1 gi|16767481|ref|NP_463096.1| maltoporin precursor [Salmonella typhimurium LT2]
+1808 4201 146.68755568490744 2 gi|16767614|ref|NP_463229.1| putative exoribonuclease [Salmonella typhimurium LT2]
+1810 3577 6.305950566246994E-15 4 gi|16766987|ref|NP_462602.1| glutaredoxin 3 [Salmonella typhimurium LT2]
+1811 3285 1.7929621376538545 2 gi|16766694|ref|NP_462309.1| putative competence protein [Salmonella typhimurium LT2]
+1812 3577 2.195999718249805E-32 2 gi|16766987|ref|NP_462602.1| glutaredoxin 3 [Salmonella typhimurium LT2]
+1814 3577 1.195125151695963E-16 3 gi|16766987|ref|NP_462602.1| glutaredoxin 3 [Salmonella typhimurium LT2]
+1815 3577 1.825934542412446E-29 2 gi|16766987|ref|NP_462602.1| glutaredoxin 3 [Salmonella typhimurium LT2]
+1816 
+1818 2221 106.48839446636866 2 gi|16765626|ref|NP_461241.1| putative transformylase [Salmonella typhimurium LT2]
+1819 
+1820 3247 9.524319304957641E-23 9 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1822 958 107.55991261046942 1 gi|16764354|ref|NP_459969.1| cell division protein [Salmonella typhimurium LT2]
+1823 3247 7.216413486806263E-21 10 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1824 3247 8.630308033767832E-11 3 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1826 
+1827 
+1828 3247 2.0904077284165744E-22 14 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1830 3247 4.546608151414468E-11 3 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1831 3247 3.0065719473350314E-7 4 gi|16766657|ref|NP_462272.1| putative periplasmic protein [Salmonella typhimurium LT2]
+1832 
+1834 
+1835 
+1836 
+1838 
+1840 
+1842 
+1844 
+1846 
+1847 1653 14.156644459568918 1 gi|16765052|ref|NP_460667.1| putative N-acetylglucosaminyl transferase [Salmonella typhimurium LT2]
+1848 
+1850 
+1851 
+1854 
+1855 
+1856 
+1858 2723 1.5000880056682924E-15 8 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1859 2723 1.0931861097613887E-20 4 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1860 2723 2.8320077215649875E-23 5 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1862 2723 1.2705232291973182E-19 7 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1863 
+1864 2723 1.3904639695950773E-20 6 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1866 
+1867 2723 4.190725278614621E-19 9 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1870 2723 2.810188062088741E-23 6 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1871 2723 1.0062687502263773E-24 15 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1872 2723 1.7598195797200541E-25 9 gi|16766132|ref|NP_461747.1| carbon storage regulator [Salmonella typhimurium LT2]
+1874 
+1875 
+1876 
+1878 
+1880 
+1882 
+1886 
+1887 
+1888 
+1890 
+1891 
+1892 
+1894 
+1895 
+1896 
+1898 
+1899 
+1900 
+1902 
+1903 
+1904 
+1906 
+1907 
+1908 
+1910 
+1911 
+1912 
+1914 370 3.6326297713117324 2 gi|16763765|ref|NP_459380.1| hypothetical protein STM0385 [Salmonella typhimurium LT2]
+1915 
+1916 918 3.763306006121405E-24 8 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1918 1860 12.063488053558293 2 gi|16765263|ref|NP_460878.1| chemotaxis sensory histidine protein kinase [Salmonella typhimurium LT2]
+1919 918 2.072102275266651E-23 4 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1920 
+1922 918 9.766693826896022E-22 5 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1923 4099 212.3626038214042 1 gi|16767512|ref|NP_463127.1| putative ABC-type bacteriocin/lantibiotic exporter [Salmonella typhimurium LT2]
+1924 918 2.8985801781267253E-25 3 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1926 
+1927 2744 24.892053128933878 1 gi|16766153|ref|NP_461768.1| hydrogenase [Salmonella typhimurium LT2]
+1928 918 1.2005417334993675E-26 5 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1930 918 5.587167130464619E-21 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1931 
+1932 918 6.080366494153546E-22 6 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1934 918 1.1835028198038272E-25 10 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1935 918 1.0495742719851511E-20 5 gi|16764314|ref|NP_459929.1| protein chain initiation factor IF-1 [Salmonella typhimurium LT2]
+1936 
+1940 
+1942 
+1943 
+1944 135 6.8812824828587E-17 5 gi|16763528|ref|NP_459143.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+1946 1777 1.3184394667280547E-30 17 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1947 1777 4.518596460331255E-30 15 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1948 1777 2.852327186034808E-28 10 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1950 1777 9.83965980707824E-29 10 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1951 1777 7.444508164450964E-27 11 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1952 1777 1.3091379928219188E-27 7 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1954 
+1955 1777 2.4002595128772125E-26 13 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1956 1777 9.059466837484861E-24 8 gi|16765178|ref|NP_460793.1| cold shock protein [Salmonella typhimurium LT2]
+1958 2148 7.842885369939495E-27 7 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1959 905 4.996975611132336 3 gi|16764301|ref|NP_459916.1| hypothetical protein STM0939 [Salmonella typhimurium LT2]
+1960 2148 8.794804128017494E-28 3 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1962 2148 5.200592102260636E-22 3 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1963 2148 6.121745737737352E-34 7 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1964 2148 1.7195990900944663E-31 14 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1966 2148 1.684965241496121E-29 9 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1967 2148 4.7081316401553E-29 8 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1968 2148 1.1492939072913138E-25 9 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1970 2148 6.554738956359132E-25 3 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1971 2148 7.036158344338273E-29 3 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1972 2148 7.994338861590711E-29 9 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1974 2148 6.597753194580904E-13 3 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1975 2148 7.67501486325312E-14 8 gi|16765553|ref|NP_461168.1| 50S ribosomal subunit protein L25 [Salmonella typhimurium LT2]
+1976 3828 153.18261753936466 1 gi|16767240|ref|NP_462855.1| S-adenosylmethionine-2-DMK methyltransferas/2-octaprenyl-6-methoxy-1,4-benzoquinone methylase [Salmonella typhimurium LT2]
+1982 3525 4.644108069053265E-43 14 gi|16766935|ref|NP_462550.1| major cold shock protein [Salmonella typhimurium LT2]
+1984 3525 8.597591404089748E-33 5 gi|16766935|ref|NP_462550.1| major cold shock protein [Salmonella typhimurium LT2]
+1986 3525 3.5613506960627554E-31 6 gi|16766935|ref|NP_462550.1| major cold shock protein [Salmonella typhimurium LT2]
+1987 
+1988 
+1991 
+1995 
+1996 
+1998 3321 1.1213690456524228E-9 4 gi|16766730|ref|NP_462345.1| 30S ribosomal subunit protein S10 [Salmonella typhimurium LT2]
+1999 4097 175.40105473158934 2 gi|16767510|ref|NP_463125.1| predicted cation efflux pump [Salmonella typhimurium LT2]
+2000 3192 129.90182779862465 2 gi|16766602|ref|NP_462217.1| UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Salmonella typhimurium LT2]
+2002 3763 361.7938810057739 2 gi|16767175|ref|NP_462790.1| putative magnesium chelatase subunit ChlI [Salmonella typhimurium LT2]
+2006 
+2007 
+2008 813 0.0963987839522338 1 gi|16764212|ref|NP_459827.1| putative ABC transporter periplasmic binding protein [Salmonella typhimurium LT2]
+2010 1341 5.380414437861474 1 gi|16764736|ref|NP_460351.1| sensory histidine kinase [Salmonella typhimurium LT2]
+2011 
+2012 
+2015 
+2016 3216 134.14478841880498 2 gi|16766626|ref|NP_462241.1| glutamate synthase small subunit [Salmonella typhimurium LT2]
+2019 
+2020 
+2032 
+2035 608 2.4747966652951404E-19 2 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2036 608 2.039751511646879E-21 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2038 608 3.8894804288802695E-22 6 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2039 608 1.7875959567243048E-28 3 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2040 608 3.162905957089836E-29 4 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2042 3808 6.775300298655558 1 gi|16767220|ref|NP_462835.1| putative hydrolase [Salmonella typhimurium LT2]
+2043 608 5.366408787426779E-23 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2044 608 1.399668125626743E-26 7 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2046 608 1.4484254044960345E-20 5 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2047 608 3.1442977201521065E-23 6 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2048 608 2.8420811612594686E-27 8 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2050 608 1.0842264925255812E-38 2 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2051 3631 15.148889989794986 2 gi|16767041|ref|NP_462656.1| putative autotransporter [Salmonella typhimurium LT2]
+2052 608 2.361976146535777E-23 5 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2054 608 2.5221876785117093E-37 2 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2055 608 3.661094070874116E-15 2 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2056 
+2060 608 4.0225291485489935E-5 5 gi|16764006|ref|NP_459621.1| negative regulator [Salmonella typhimurium LT2]
+2062 2584 4.977072223212979E-21 3 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2063 2052 11.520700433219783 2 gi|16765458|ref|NP_461073.1| outer membrane putative efflux transporter [Salmonella typhimurium LT2]
+2064 2584 1.5946386167517402E-12 4 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2066 
+2067 1280 32.93976981827592 1 gi|16764674|ref|NP_460289.1| putative regulatory protein [Salmonella typhimurium LT2]
+2068 
+2070 
+2071 2135 32.97149638090384 1 gi|39546337|ref|NP_461155.2| putative elongation factor [Salmonella typhimurium LT2]
+2072 
+2074 
+2075 567 44.42131785768029 1 gi|16763965|ref|NP_459580.1| enterobactin synthetase component F [Salmonella typhimurium LT2]
+2076 2584 4.77732675344705E-19 3 gi|16765991|ref|NP_461606.1| 30S ribosomal subunit protein S16 [Salmonella typhimurium LT2]
+2079 
+2080 
+2082 
+2084 
+2087 
+2091 2735 487.1927209017529 1 gi|39546349|ref|NP_461759.2| putative sugar phosphate isomerase [Salmonella typhimurium LT2]
+2092 
+2094 
+2096 
+2098 
+2099 
+2100 
+2102 
+2103 
+2104 
+2106 
+2112 
+2114 
+2119 
+2120 
+2122 1784 5.0714066446823365 1 gi|16765185|ref|NP_460800.1| heat shock protein [Salmonella typhimurium LT2]
+2123 
+2124 261 2.0116263133557397 1 gi|16763654|ref|NP_459269.1| putative chaperone ATPase [Salmonella typhimurium LT2]
+2127 950 2.0052424307331163 1 gi|16764346|ref|NP_459961.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2130 
+2134 
+2135 624 36.71431510086693 1 gi|16764022|ref|NP_459637.1| putative nicotinic acid mononucleotide adenylyltransferase [Salmonella typhimurium LT2]
+2136 
+2139 
+2142 
+2143 
+2144 
+2146 
+2147 
+2148 
+2150 
+2151 
+2152 
+2154 
+2155 
+2156 
+2158 
+2159 
+2160 
+2162 3300 0.0713535158998744 3 gi|16766709|ref|NP_462324.1| preprotein translocase [Salmonella typhimurium LT2]
+2163 
+2164 575 211.1749415979408 1 gi|16763973|ref|NP_459588.1| 2,3-dihydroxybenzoate-AMP ligase [Salmonella typhimurium LT2]
+2166 
+2167 
+2168 3304 1.5610465226343799E-31 8 gi|16766713|ref|NP_462328.1| 50S ribosomal subunit protein L18 [Salmonella typhimurium LT2]
+2170 
+2171 
+2172 
+2174 1657 22.5062713959445 1 gi|16765056|ref|NP_460671.1| aconitate hydratase 1 [Salmonella typhimurium LT2]
+2175 
+2176 
+2178 489 3.9857785501131904 3 gi|16763885|ref|NP_459500.1| putative oxidoreductase [Salmonella typhimurium LT2]
+2179 
+2180 3304 0.001804256047562495 2 gi|16766713|ref|NP_462328.1| 50S ribosomal subunit protein L18 [Salmonella typhimurium LT2]
+2182 
+2183 
+2184 
+2190 
+2194 
+2195 
+2196 1764 19.7687600180042 1 gi|16765165|ref|NP_460780.1| p-aminobenzoate synthetase component I [Salmonella typhimurium LT2]
+2199 
+2200 
+2202 
+2203 
+2204 
+2206 
+2208 
+2210 
+2211 
+2212 
+2214 
+2215 
+2216 
+2218 
+2219 
+2220 
+2222 
+2223 
+2224 3315 8.874615780416908E-13 1 gi|16766724|ref|NP_462339.1| 50S ribosomal subunit protein L22 [Salmonella typhimurium LT2]
+2226 
+2227 
+2228 
+2230 3411 112.53155634662097 2 gi|16766820|ref|NP_462435.1| glycogen phosphorylase [Salmonella typhimurium LT2]
+2231 675 28.055384276170034 2 gi|16764073|ref|NP_459688.1| sensor kinase [Salmonella typhimurium LT2]
+2232 2191 2.049024900828016 1 gi|16765596|ref|NP_461211.1| putative sensor kinase [Salmonella typhimurium LT2]
+2234 1657 4.154602933644276 3 gi|16765056|ref|NP_460671.1| aconitate hydratase 1 [Salmonella typhimurium LT2]
+2235 3944 232.60398044048407 1 gi|16767357|ref|NP_462972.1| ATP-dependent HAL protease subunit [Salmonella typhimurium LT2]
+2236 3312 1.7414178330166604E-4 4 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2238 
+2239 3312 4.32428352968984 4 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2240 
+2244 
+2250 
+2251 222 0.8199939479138594 2 gi|16763615|ref|NP_459230.1| outer membrane protein H precursor [Salmonella typhimurium LT2]
+2252 
+2254 222 9.531048645231202E-8 2 gi|16763615|ref|NP_459230.1| outer membrane protein H precursor [Salmonella typhimurium LT2]
+2255 2996 212.89960599526896 1 gi|16766406|ref|NP_462021.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2256 
+2258 1144 182.87574402716794 2 gi|16764539|ref|NP_460154.1| flagellar hook-associated protein 1 [Salmonella typhimurium LT2]
+2259 1736 5.490349562088101 2 gi|16765137|ref|NP_460752.1| trehalase [Salmonella typhimurium LT2]
+2260 3998 9.616521673072363 2 gi|16767411|ref|NP_463026.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2262 2072 3.3514094048126797E-21 2 gi|16765477|ref|NP_461092.1| putative periplasmic protein [Salmonella typhimurium LT2]
+2263 
+2264 
+2266 
+2268 
+2270 
+2272 
+2274 
+2275 
+2278 
+2279 
+2280 
+2282 2053 68.57279155650195 1 gi|16765459|ref|NP_461074.1| putative transport protein [Salmonella typhimurium LT2]
+2283 
+2284 
+2286 
+2287 
+2288 
+2290 
+2291 
+2292 1638 23.47098119588904 1 gi|16765037|ref|NP_460652.1| peptide transport protein [Salmonella typhimurium LT2]
+2294 3318 1.806748216596956E-8 2 gi|16766727|ref|NP_462342.1| 50S ribosomal subunit protein L23 [Salmonella typhimurium LT2]
+2295 1373 10.647230887781356 1 gi|16764768|ref|NP_460383.1| needle complex export protein [Salmonella typhimurium LT2]
+2296 3357 155.1881192452556 1 gi|16766766|ref|NP_462381.1| putative surface-exposed virulence protein [Salmonella typhimurium LT2]
+2298 2500 0.23730993823308527 1 gi|16765907|ref|NP_461522.1| phage tail assembly-like protein [Salmonella typhimurium LT2]
+2299 
+2300 
+2302 
+2303 4368 159.26786780844023 1 gi|16767785|ref|NP_463400.1| phosphoglycerol transferase I [Salmonella typhimurium LT2]
+2304 
+2306 3318 1.5326873621367686E-7 2 gi|16766727|ref|NP_462342.1| 50S ribosomal subunit protein L23 [Salmonella typhimurium LT2]
+2307 3318 7.944345378673674E-23 7 gi|16766727|ref|NP_462342.1| 50S ribosomal subunit protein L23 [Salmonella typhimurium LT2]
+2310 
+2311 4098 100.71083511471537 1 gi|16767511|ref|NP_463126.1| putative inner membrane protein [Salmonella typhimurium LT2]
+2312 
+2314 
+2315 
+2316 
+2318 
+2319 
+2320 3312 9.194698858353579E-16 5 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2322 3312 8.469448920989594E-18 9 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2323 3546 78.23943621173711 1 gi|16766956|ref|NP_462571.1| putative transporter [Salmonella typhimurium LT2]
+2324 3312 6.579451069258326E-19 3 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2326 3312 2.8918135946054713E-16 4 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2327 3312 2.6597808770616296E-22 3 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2328 631 72.21327002807207 3 gi|16764029|ref|NP_459644.1| putative sigma-54 dependent transcriptional regulator [Salmonella typhimurium LT2]
+2330 3312 2.007238074650513E-15 2 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2331 2204 49.57894201067959 1 gi|16765609|ref|NP_461224.1| periplasmic glycerophosphodiester phosphodiesterase [Salmonella typhimurium LT2]
+2332 1361 16.821392492899445 2 gi|16764756|ref|NP_460371.1| type III secretion system apparatus protein [Salmonella typhimurium LT2]
+2334 3312 4.502254640027546E-21 10 gi|16766721|ref|NP_462336.1| 50S ribosomal subunit protein L29 [Salmonella typhimurium LT2]
+2335 

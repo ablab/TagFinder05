@@ -1,0 +1,184 @@
+#Total number of scans for process: 181
+#Started at Thu Dec 29 14:46:08 MSK 2011
+3502 
+3504 
+3506 
+3507 150 252.86185748877395 2 gi|16763543|ref|NP_459158.1| pyruvate dehydrogenase E2 component [Salmonella typhimurium LT2]
+3510 
+3511 
+3512 3993 9.568574372236744E-40 9 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3514 3993 1.7458627343491177E-9 4 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3515 3993 2.9468969222210183E-43 4 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3516 3993 2.4856780806855907E-38 9 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3518 3993 2.0286164431897122E-25 11 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3519 3993 6.343641526619587E-31 6 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3520 
+3522 3993 2.330277699528038E-22 14 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3523 3993 2.946896967335903E-43 4 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3526 3993 6.778002176205347E-20 8 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3527 3993 4.803442020732867E-41 8 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3536 3993 4.570178516847229E-6 2 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3539 3993 2.946896916394467E-43 6 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3540 3993 2.9468969285861784E-43 5 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3542 
+3543 
+3544 
+3550 
+3551 
+3552 
+3554 
+3555 2199 317.55662512771215 1 gi|16765604|ref|NP_461219.1| ribonucleoside diphosphate reductase 1 alpha subunit [Salmonella typhimurium LT2]
+3556 3993 3.1085148082703155E-30 12 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3558 3993 5.167317667838237E-31 7 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3559 3993 2.3302106895474127E-26 6 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3560 3662 68.01929470686137 2 gi|16767073|ref|NP_462688.1| sensory histidine kinase [Salmonella typhimurium LT2]
+3562 3993 2.0739585708766403E-11 10 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3563 
+3567 3993 3.388535952922231E-33 10 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3568 899 71.78205300694329 2 gi|16764295|ref|NP_459910.1| putative nucleoside-diphosphate-sugar epimerase [Salmonella typhimurium LT2]
+3572 
+3576 3993 3.8962602310671795E-28 5 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3583 554 87.40745747428349 1 gi|16763952|ref|NP_459567.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3587 108 75.94950421376943 2 gi|16763501|ref|NP_459116.1| 3-isopropylmalate isomerase large subunit [Salmonella typhimurium LT2]
+3598 
+3614 
+3622 149 21.29758673844923 2 gi|16763542|ref|NP_459157.1| pyruvate dehydrogenase E1 component [Salmonella typhimurium LT2]
+3623 1176 149.79285200086778 2 gi|16764571|ref|NP_460186.1| transcription-repair coupling factor [Salmonella typhimurium LT2]
+3630 368 1.607784058442858E-19 7 gi|16763763|ref|NP_459378.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3631 1176 40.73516033831292 2 gi|16764571|ref|NP_460186.1| transcription-repair coupling factor [Salmonella typhimurium LT2]
+3632 
+3636 
+3638 
+3639 546 80.34268984696833 1 gi|16763944|ref|NP_459559.1| putative DNA repair ATPase [Salmonella typhimurium LT2]
+3640 4403 2.473468143753597 2 gi|16767820|ref|NP_463435.1| putative ATP-dependent protease [Salmonella typhimurium LT2]
+3648 2236 36.892772589903984 2 gi|16765641|ref|NP_461256.1| putative chemotaxis signal transduction protein [Salmonella typhimurium LT2]
+3650 3993 4.431126971082602E-7 4 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3652 3261 146.43485076288863 2 gi|16766670|ref|NP_462285.1| putative diguanylate cyclase [Salmonella typhimurium LT2]
+3654 3993 7.366951019979964E-31 11 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3655 
+3658 3993 1.3476606782115344E-31 13 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3659 1088 29.896057092153534 2 gi|16764482|ref|NP_460097.1| major sodium/proline symporter [Salmonella typhimurium LT2]
+3660 3993 5.104787075178822E-22 4 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3662 
+3663 
+3666 4105 6.7482211365087155 3 gi|16767518|ref|NP_463133.1| hypothetical protein STM4268 [Salmonella typhimurium LT2]
+3667 
+3670 3993 4.1350598331852794E-36 5 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3679 2143 42.77747996399655 2 gi|16765548|ref|NP_461163.1| putative ABC-type transport system ATPase component [Salmonella typhimurium LT2]
+3680 3993 2.7363914675813182E-14 2 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3682 
+3686 3993 1.4897035436385077E-37 8 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3690 3993 6.018148377760213E-19 7 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3695 3993 0.004264735549812418 5 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3696 
+3698 
+3706 
+3714 3547 32.897825542607436 2 gi|16766957|ref|NP_462572.1| putative membrane protein [Salmonella typhimurium LT2]
+3716 
+3718 
+3719 
+3742 
+3743 
+3744 
+3746 
+3748 
+3750 
+3751 
+3758 
+3788 
+3791 
+3799 
+3804 
+3810 
+3811 
+3812 
+3818 
+3819 
+3820 
+3822 336 0.6990917333720874 5 gi|16763731|ref|NP_459346.1| putative cation efflux system protein [Salmonella typhimurium LT2]
+3823 958 6.977094612985885 4 gi|16764354|ref|NP_459969.1| cell division protein [Salmonella typhimurium LT2]
+3824 3492 60.54850176358162 2 gi|16766902|ref|NP_462517.1| tetratricopeptide repeat protein [Salmonella typhimurium LT2]
+3826 2302 8.235087585412095E-37 4 gi|16765707|ref|NP_461322.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3827 
+3828 
+3838 
+3844 567 5.926927951629147 1 gi|16763965|ref|NP_459580.1| enterobactin synthetase component F [Salmonella typhimurium LT2]
+3846 
+3851 
+3854 3831 4.1521082560545014E-5 5 gi|16767243|ref|NP_462858.1| Sec-independent protein secretion pathway component [Salmonella typhimurium LT2]
+3855 
+3856 
+3858 
+3910 
+4023 
+4099 
+4104 
+4106 
+4107 
+4108 
+4111 
+4112 
+4114 
+4116 
+4124 
+4126 
+4127 
+4132 4165 2.909826468230788E-27 2 gi|16767578|ref|NP_463193.1| chaperone Hsp10 [Salmonella typhimurium LT2]
+4136 
+4139 
+4142 
+4148 
+4151 3231 11.609466203448683 1 gi|16766641|ref|NP_462256.1| putative ATPase [Salmonella typhimurium LT2]
+4152 
+4154 
+4155 
+4156 
+4158 
+4159 
+4160 
+4162 
+4163 
+4166 
+4167 
+4176 
+4183 
+4186 
+4187 
+4190 
+4191 
+4194 
+4195 
+4196 
+4198 
+4199 
+4200 
+4202 
+4203 
+4204 
+4206 
+4207 
+4208 
+4210 
+4212 
+4214 
+4215 
+4216 
+4218 
+4219 
+4220 
+4222 
+4223 
+4226 
+4227 
+4228 
+4230 
+4231 
+4234 
+4235 
+4236 
+4239 
+4240 
+4242 
+4246 
+4247 
+#Finished at Thu Dec 29 20:56:11 MSK 2011

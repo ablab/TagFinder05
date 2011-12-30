@@ -1,0 +1,113 @@
+#Total number of scans for process: 613
+#Started at Fri Dec 30 15:45:11 MSK 2011
+2602 
+2603 
+2604 
+2606 
+2607 
+2608 
+2610 
+2611 945 3.6111595121356204 1 gi|16764341|ref|NP_459956.1| 30S ribosomal subunit protein S1 [Salmonella typhimurium LT2]
+2612 
+2614 2346 5.875619839811728E-15 6 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2615 1305 22.5521584003528 3 gi|16764700|ref|NP_460315.1| phosphoenolpyruvate synthase [Salmonella typhimurium LT2]
+2616 
+2618 2346 6.352119234190524E-30 9 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2619 2346 3.581005502260768E-32 10 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2620 2346 6.145448352597678E-21 5 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2622 549 86.12726334442183 1 gi|16763947|ref|NP_459562.1| outer membrane esterase [Salmonella typhimurium LT2]
+2623 2346 5.906020328333971E-18 3 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2624 2346 2.9585726088747395E-32 4 gi|16765751|ref|NP_461366.1| phosphohistidinoprotein-hexose phosphotransferase [Salmonella typhimurium LT2]
+2628 
+2630 
+2631 
+2632 825 94.73416479768713 1 gi|16764225|ref|NP_459840.1| D-alanyl-D-alanine carboxypeptidase [Salmonella typhimurium LT2]
+2634 4262 68.72221331360608 3 gi|16767680|ref|NP_463295.1| putative permease [Salmonella typhimurium LT2]
+2636 
+2639 
+2640 
+2642 
+2643 
+2644 
+2646 
+2648 
+2650 
+2652 
+2654 
+2658 
+2659 
+2660 
+2666 
+2667 
+2668 
+2670 
+2671 
+2672 
+2674 
+2675 
+2676 
+2679 
+2680 2613 5.782597224868014 1 gi|16766021|ref|NP_461636.1| phage tail-like protein [Salmonella typhimurium LT2]
+2682 
+2686 
+2687 
+2688 
+2690 
+2691 
+2692 
+2694 
+2695 
+2696 
+2698 
+2699 
+2700 
+2702 
+2703 1657 190.6675585354689 1 gi|16765056|ref|NP_460671.1| aconitate hydratase 1 [Salmonella typhimurium LT2]
+2704 
+2706 
+2707 
+2708 
+2711 
+2712 
+2714 
+2716 
+2730 1660 6.636162734664188E-6 2 gi|16765059|ref|NP_460674.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2731 1660 1.143436181096029E-6 1 gi|16765059|ref|NP_460674.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+2735 2704 144.9343349960591 1 gi|16766114|ref|NP_461729.1| putative regulatory protein [Salmonella typhimurium LT2]
+2736 3326 6.33934576673407 1 gi|16766735|ref|NP_462350.1| protein chain elongation factor EF-G [Salmonella typhimurium LT2]
+2738 
+2739 
+2740 
+2742 
+2746 
+2748 
+2750 
+2751 
+2752 
+2754 
+2755 
+2758 
+2759 
+2762 
+2766 
+2768 
+2770 
+2771 
+2772 
+2774 
+2775 
+2776 
+2778 
+2779 
+2782 
+2783 
+2787 
+2792 
+2794 
+2796 
+2804 
+2806 
+2807 
+2808 
+2810 3206 1.1679735208230194E-5 2 gi|16766616|ref|NP_462231.1| putative sigma N modulation factor [Salmonella typhimurium LT2]
+2811 

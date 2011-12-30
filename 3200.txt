@@ -1,0 +1,69 @@
+#Total number of scans for process: 280
+#Started at Fri Dec 30 12:36:19 MSK 2011
+3200 
+3203 
+3210 4050 11.372106789236396 3 gi|16767463|ref|NP_463078.1| putative phage tail sheath protein [Salmonella typhimurium LT2]
+3211 3779 6.267517175678185E-32 4 gi|16767191|ref|NP_462806.1| thioredoxin 1 [Salmonella typhimurium LT2]
+3212 3779 1.5589447861080986E-18 5 gi|16767191|ref|NP_462806.1| thioredoxin 1 [Salmonella typhimurium LT2]
+3220 
+3222 
+3224 
+3226 
+3230 
+3234 
+3235 
+3238 
+3239 
+3243 
+3244 
+3251 
+3254 
+3258 
+3262 
+3266 
+3267 
+3272 
+3275 
+3278 
+3279 
+3283 
+3286 
+3290 
+3294 
+3298 
+3299 
+3300 
+3302 
+3303 
+3304 2151 4.549113973355882E-13 2 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3306 
+3307 1559 15.85297443215686 1 gi|16764956|ref|NP_460571.1| putative cellulase protein [Salmonella typhimurium LT2]
+3308 2151 2.044141040022975E-27 6 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3310 2151 4.2239141861021457E-35 23 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3311 
+3312 2151 1.2505063626004296E-32 14 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3314 2151 2.2206515724358935E-33 20 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3315 2151 2.3114491545973314E-35 24 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3316 3566 12.147432874177804 2 gi|16766976|ref|NP_462591.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3318 
+3319 2151 4.679137275152213E-10 3 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3320 2151 4.803063972409082E-29 6 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3322 
+3323 2151 3.730864672396181E-30 6 gi|16765556|ref|NP_461171.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3326 
+3330 
+3348 3194 2.625449369716757E-25 5 gi|16766604|ref|NP_462219.1| hypothetical protein STM3309 [Salmonella typhimurium LT2]
+3351 
+3374 
+3375 
+3378 
+3379 774 15.59368430983322 2 gi|16764173|ref|NP_459788.1| putative inner membrane protein [Salmonella typhimurium LT2]
+3380 
+3382 
+3383 
+3388 
+3392 
+3395 
+3400 
+3407 
+3410 

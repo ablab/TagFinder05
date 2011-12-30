@@ -1,0 +1,47 @@
+#Total number of scans for process: 216
+#Started at Fri Dec 30 11:07:54 MSK 2011
+3400 
+3407 
+3410 401 1.4816870125969695E-15 3 gi|16763797|ref|NP_459412.1| riboflavin synthase beta chain [Salmonella typhimurium LT2]
+3411 401 4.1183990081180285E-5 1 gi|16763797|ref|NP_459412.1| riboflavin synthase beta chain [Salmonella typhimurium LT2]
+3415 645 450.8689812477214 1 gi|16764043|ref|NP_459658.1| apolipoprotein N-acyltransferase [Salmonella typhimurium LT2]
+3419 
+3424 
+3427 
+3438 
+3443 
+3448 
+3450 1882 2.9361471869023455E-23 2 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3454 1882 4.6613964676090354E-43 18 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3455 1882 4.66139652958961E-43 18 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3456 1882 4.661396417854617E-43 29 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3458 1882 4.661396465163311E-43 23 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3459 1882 4.661396476907017E-43 26 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3460 1882 4.66139644732328E-43 23 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3462 1882 4.489390963318656E-39 11 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3463 1882 3.286284527852147E-40 15 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3464 1882 1.3880706366289997E-38 15 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3466 1882 4.661396431593821E-43 24 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3467 1882 4.661396431644606E-43 15 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3468 1882 1.1240957668053181E-38 15 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3470 1882 4.661396449583201E-43 21 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3471 1882 6.992094724149114E-42 23 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3474 1882 8.761058559756162E-35 13 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3478 1882 4.661396454050758E-43 20 gi|16765287|ref|NP_460902.1| putative cytoplasmic protein [Salmonella typhimurium LT2]
+3480 
+3482 
+3483 
+3484 
+3487 
+3492 
+3499 3993 0.023065663613992548 1 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3502 
+3504 158 31.7911954871051 1 gi|16763551|ref|NP_459166.1| 2-keto-3-deoxygluconate permease [Salmonella typhimurium LT2]
+3506 
+3507 150 252.86185748877395 3 gi|16763543|ref|NP_459158.1| pyruvate dehydrogenase E2 component [Salmonella typhimurium LT2]
+3510 819 524.7139901501155 1 gi|16764218|ref|NP_459833.1| putative electron transfer protein alpha subunit [Salmonella typhimurium LT2]
+3511 
+3512 3993 9.568574372236744E-40 11 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3514 3993 1.7469108549140438E-9 6 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3515 3993 2.9468969222210183E-43 7 gi|16767406|ref|NP_463021.1| 50S ribosomal subunit protein L7/L12 [Salmonella typhimurium LT2]
+3516 

@@ -8,14 +8,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class Tag4Finder {
     private static NumberFormat df = NumberFormat.getInstance();
-    private static List<Protein> proteins;
+    protected static List<Protein> proteins;
     private static Configuration conf;
 
     static {
@@ -95,7 +93,7 @@ public class Tag4Finder {
     }
 
 
-    private static void fillScoresSeparator(List<List<Peak>> componentsFromGraph, Map<Integer, Integer> scores) {
+    public static void fillScoresSeparator(List<List<Peak>> componentsFromGraph, Map<Integer, Integer> scores) {
         List<String> tags = getTags(componentsFromGraph);
         int subSequenceLength = 300;        
         for (Protein protein : proteins) {
@@ -109,7 +107,7 @@ public class Tag4Finder {
                 String s = sequence.substring(start, Math.min(start + subSequenceLength, sequence.length()));
                 int nextScore = 0;
                 for (String tag : tags) {
-                    for (int i = 0; i < tag.length() - TAG_SIZE; i++) {
+                    for (int i = 0; i <= tag.length() - TAG_SIZE; i++) {
                         if (s.contains(tag.substring(i, i + TAG_SIZE))) {
                             nextScore++;
                         }
@@ -125,7 +123,7 @@ public class Tag4Finder {
         }
     }
 
-    private static List<String> getTags(List<List<Peak>> componentsFromGraph) {
+    public static List<String> getTags(List<List<Peak>> componentsFromGraph) {
         List<String> tags = new ArrayList<String>();
         for (List<Peak> component : componentsFromGraph) {
             Peak[] tagPeaks = GraphUtil.findBestTag(component);

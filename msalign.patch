@@ -1,0 +1,34 @@
+Index: src/edu/ucsd/msalign/spec/align7/AlignFasta.java
+===================================================================
+--- src/edu/ucsd/msalign/spec/align7/AlignFasta.java	(revision 7223)
++++ src/edu/ucsd/msalign/spec/align7/AlignFasta.java	(working copy)
+@@ -47,6 +47,7 @@
+     /** seqence information */
+     ResList resList;
+     private ResMassSeq seqs[];
++    private ResMassSeq seqsFull[];
+ 
+     private AlignResult alignResults[][][];
+ 
+@@ -82,6 +83,7 @@
+                 seq_list.add(s);
+             }
+         }
++        seqsFull = seq_list.toArray(new ResMassSeq[0]);
+         seqs = seq_list.toArray(new ResMassSeq[0]);
+         //doLenStat();
+         /* we use b-ions for mass lists of proteins in the database, and convert
+@@ -95,6 +97,13 @@
+         }
+     }
+ 
++    public void updateSeq(int... proteinIds) {
++        seqs = new ResMassSeq[proteinIds.length];
++        for (int i = 0; i < proteinIds.length; i++) {
++            seqs[i] = seqsFull[proteinIds[i]];
++        }
++        fastFilter = new PtmFastFilter(seqs, mng);
++    }
+ 
+     public void doLenStat() {
+         int cnt[] = new int[1000000];

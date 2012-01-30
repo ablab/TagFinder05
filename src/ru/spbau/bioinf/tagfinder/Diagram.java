@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -18,7 +19,7 @@ public class Diagram {
         dir = new File(dir.getCanonicalPath());
         File[] txtFiles = dir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
-                return name.endsWith(".txt");
+                return name.endsWith("out20.txt");
             }
         });
         int lines = 0;
@@ -49,7 +50,15 @@ public class Diagram {
         while ((s = readerMsalign.readLine())!= null) {
             msAlignOld.add(Integer.parseInt(s));
         }
-        
+
+        Integer[] mn = matchedNew.toArray(new Integer[]{});
+        Arrays.sort(mn);
+        for (Integer integer : mn) {
+            System.out.println(integer);
+        }
+
+
+
         Configuration conf = new Configuration(args);
         Map<Integer, Scan> scans = conf.getScans();
         List<Integer> keys = new ArrayList<Integer>();
@@ -86,6 +95,7 @@ public class Diagram {
 
             if (isNew && !isOld) {
                 tagOnly++;
+                System.out.println("New " + scanId);
             }
 
             if (!isNew && isOld) {

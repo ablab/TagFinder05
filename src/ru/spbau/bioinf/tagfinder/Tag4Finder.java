@@ -1,6 +1,5 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.io.File;
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -8,8 +7,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class Tag4Finder {
     private static NumberFormat df = NumberFormat.getInstance();
@@ -25,17 +26,37 @@ public class Tag4Finder {
     public static void main(String[] args) throws Exception {
         String[] parameters = new String[]{};
         int start = -1;
+        int candidatesCount = 20;
+        int batchSize = candidatesCount;
+        
+
         for (String arg : args) {
-            File file = new File(arg);
-            if (file.isDirectory()) {
-                parameters = new String[]{arg};
-            } else {
-                try {
-                    start = Integer.parseInt(arg);
-                } catch (NumberFormatException e) {
+            int ind = arg.indexOf('=');
+            if (ind > 0) {
+                String parameter = arg.substring(0, ind);
+                String value = arg.substring(ind + 1);
+                if ("dataset".equals(parameter)) {
+                    File file = new File(value);
+                    if (file.isDirectory()) {
+                        parameters = new String[]{value};
+                    }
                 }
-            }    
+                if ("start".equals(parameter)) {
+                    try {
+                        start = Integer.parseInt(arg);
+                    } catch (NumberFormatException e) {
+                    }
+                }
+                if ("batchSize".equals(parameter)) {
+                    try {
+                        batchSize = Integer.parseInt(value);
+                    } catch (NumberFormatException e) {
+                    }
+                }
+            }
         }
+        System.out.println("candidatesCount = " + candidatesCount);
+        System.out.println("batchSize = " + batchSize);
                 
         conf = new Configuration(parameters);
         EValueAdapter.init(conf);
@@ -72,17 +93,29 @@ public class Tag4Finder {
                 });
                 double bestEvalue = 10E99;
                 int bestProteinId = -1;
-                for (int i = 0; i < proteinIds.size(); i++) {
-                    if (i == 20) {
-                        break;
+                Set<Integer> p = new HashSet<Integer>();
+                
+                for (int batchStart = 0; batchStart < candidatesCount; batchStart += batchSize) {
+                    for (int i = batchStart; i < batchStart + batchSize; i++) {
+                        if (i >= proteinIds.size()) {
+                            break;
+                        }
+                        int proteinId = proteinIds.get(i);
+                        p.add(proteinId);
                     }
-                    int proteinId = proteinIds.get(i);
-                    double evalue = EValueAdapter.getBestEValue(scan, proteinId);
-                    if (evalue < bestEvalue) {
-                       bestProteinId = proteinId;
-                       bestEvalue = evalue;
+                    int[] pIds = new int[p.size()];
+                    int cur = 0;
+                    for (Integer pId : p) {
+                        pIds[cur] = pId;
+                        cur++;
+                    }
+                    double[] best = EValueAdapter.getBestPrsm(scan, pIds);
+                    if (best[1] > -1 && best[0] < bestEvalue) {
+                        bestProteinId = pIds[(int) Math.round(best[1])];
+                        bestEvalue = best[0];
                     }
                 }
+
                 if (bestProteinId >= 0) {
                     System.out.print(bestProteinId + " " + bestEvalue +  " " +  score.get(bestProteinId) + " " + proteins.get(bestProteinId).getName());
                 }

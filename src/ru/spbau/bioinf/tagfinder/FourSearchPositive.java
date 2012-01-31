@@ -1,6 +1,5 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -104,7 +103,7 @@ public class FourSearchPositive {
                             //    hasGood = true;
                             //}
                         }
-                        System.out.println(scanId + " " + name + " " + proteinId + " " + score.get(proteinId) + " " + EValueAdapter.getBestEValue(scan, proteinId) + " " + tagsList);
+                        System.out.println(scanId + " " + name + " " + proteinId + " " + score.get(proteinId) + " " + EValueAdapter.getBestPrsm(scan, proteinId)[0] + " " + tagsList);
                     }
                 }
                     /*

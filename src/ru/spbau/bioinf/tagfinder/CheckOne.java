@@ -1,15 +1,12 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class CheckOne {
     private static NumberFormat df = NumberFormat.getInstance();
@@ -29,9 +26,13 @@ public class CheckOne {
         Map<Integer, Scan> scans = conf.getScans();
         List<Integer> keys = new ArrayList<Integer>();
         //keys.add(3695); keys.add(2239); keys.add(1718); keys.add(1264); keys.add(1088);
-        keys.add(898); keys.add(904); keys.add(1059); keys.add(1127); keys.add(1214);
-        keys.add(1219); keys.add(1220); keys.add(1243); keys.add(1250); keys.add(1252);
-        keys.add(1342);keys.add(1675);
+        keys.add(2438);
+        keys.add(2615);
+        keys.add(3150);
+        //keys.add(3750);
+       // keys.add(898); keys.add(904); keys.add(1059); keys.add(1127); keys.add(1214);
+       // keys.add(1219); keys.add(1220); keys.add(1243); keys.add(1250); keys.add(1252);
+       // keys.add(1342);keys.add(1675);
 
         Collections.sort(keys);
         System.out.println("Total number of scans: " + keys.size());
@@ -62,7 +63,7 @@ public class CheckOne {
                         break;
                     }
                     int proteinId = proteinIds.get(i);
-                    double evalue = EValueAdapter.getBestEValue(scan, proteinId);
+                    double evalue = EValueAdapter.getBestPrsm(scan, proteinId)[0];
                     System.out.println(proteinId + " " + evalue +  " " +  score.get(proteinId) + " " + proteins.get(proteinId).getName());
                 }
                 System.out.println("Unchecked proteins:");

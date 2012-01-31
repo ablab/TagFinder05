@@ -1,6 +1,5 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.text.NumberFormat;
 import java.util.*;
 
@@ -136,7 +135,7 @@ public class FourSearch {
                         //System.out.println(proteinId + " " + score.get(proteinId) + " " + proteins.get(proteinId).getName());
                     }
 
-                    double evalue = EValueAdapter.getBestEValue(scan, proteinId);
+                    double evalue = EValueAdapter.getBestPrsm(scan, proteinId)[0];
                     if (evalue < 1) {
                         if (evalue < Configuration.EVALUE_LIMIT) {
                             //System.out.print("!");

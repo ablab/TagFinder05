@@ -1,6 +1,5 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,7 +33,7 @@ public class EValueChecker {
             int scanId = scan.getId();
             if (msAlignResults.containsKey(scanId)) {
                 Integer proteinId = msAlignResults.get(scanId);
-                double newEvalue= EValueAdapter.getBestEValue(scan, proteinId);
+                double newEvalue= EValueAdapter.getBestPrsm(scan, proteinId)[0];
                 Double oldEvalue = evalues.get(scanId);
                 System.out.println(scanId + " " + proteinId + " " + oldEvalue + " " + newEvalue + " " + (1 - (newEvalue / oldEvalue)));
             }

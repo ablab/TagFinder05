@@ -1,6 +1,5 @@
 package ru.spbau.bioinf.tagfinder;
 
-import edu.ucsd.msalign.spec.id.EValueAdapter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -57,7 +56,7 @@ public class FindSubtagInDatabase {
                 for (Protein protein : proteins) {
                     if (protein.getSimplifiedAcids().contains(tag)) {
                         int proteinId = protein.getProteinId();
-                        System.out.println(proteinId + " " + score.get(proteinId) + " " + EValueAdapter.getBestEValue(scan, proteinId));
+                        System.out.println(proteinId + " " + score.get(proteinId) + " " + EValueAdapter.getBestPrsm(scan, proteinId)[0]);
                     }
                 }
             }

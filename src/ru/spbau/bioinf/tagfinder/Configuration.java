@@ -33,6 +33,7 @@ public class Configuration {
     private File xmlScansDir;
 
     private String mod = null;
+    private File msalignFile;
 
     public Configuration(String... args) throws IOException {
         init(args);
@@ -196,6 +197,11 @@ public class Configuration {
         return evalues;
     }
 
+
+    public File getMsalignFile() {
+        return msalignFile;
+    }
+
     public Map<Integer, Scan> getScans() throws IOException {
 
         Map<Integer, Scan> scans = new HashMap<Integer, Scan>();
@@ -207,7 +213,7 @@ public class Configuration {
                 }
             });
             if (msalignFiles.length == 1) {
-                File msalignFile = msalignFiles[0];
+                msalignFile = msalignFiles[0];
                 //System.out.println("msalign file = " + msalignFile.getCanonicalPath());
                 BufferedReader input = ReaderUtil.getBufferedReader(msalignFile);
                 Properties properties;

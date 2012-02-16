@@ -1,0 +1,180 @@
+Index: MsAlign.java
+===================================================================
+--- MsAlign.java	(revision 7284)
++++ MsAlign.java	(working copy)
+@@ -3,6 +3,9 @@
+ import java.io.File;
+ import java.util.ArrayList;
+ import java.util.Collections;
++import java.util.HashMap;
++import java.util.List;
++import java.util.Map;
+ import java.util.Properties;
+ 
+ import org.apache.log4j.Logger;
+@@ -32,6 +35,8 @@
+ 
+     private Properties prop;
+     private AlignMng mng;
++    protected ResList resList;
++    protected NModSeq nModSeqs[];
+     private PtmFastFilterBatch filter;
+     private PrSMSearcher searcher;
+     private PrSMSelector selector;
+@@ -40,6 +45,8 @@
+     private CorrectCharge correctCharge;
+     private PeakListReader spReader;
+     private int nSpectra;
++    private MsAlignSeq[] seqsFull;
++    private Ptm acetylation;
+ 
+     public MsAlign(Properties prop) throws Exception {
+         this.prop = prop;
+@@ -47,21 +54,14 @@
+         File dbFile = new File(prop.getProperty("databaseFileName"));
+ 
+         System.out.println("Initializing indexes...");
+-        ResList resList = ResListFactory.getInstance(mng.resFileName);
+-        MsAlignSeq seqs[] = FastaDbReader.readFastaDb(dbFile, resList,
++        resList = ResListFactory.getInstance(mng.resFileName);
++        seqsFull = FastaDbReader.readFastaDb(dbFile, resList,
+                 mng.searchType);
+-        Ptm acetylation = resList.getPtmList().getPtmByAbbrName(
++        acetylation = resList.getPtmList().getPtmByAbbrName(
+                 "Acetylation (N-term)");
+-        NModSeq nModSeqs[] = NModSeqFactory.getInstances(seqs,
+-                mng.allowProtNTermMods, acetylation);
+-        if (mng.nShift > 0) {
+-            filter = new PtmFastFilterBatch(seqs, mng);
+-        }
+-        searcher = new PrSMSearcher(seqs, nModSeqs, mng);
+-        selector = new PrSMSelector(seqs, nModSeqs, resList, mng);
+-        correctOne = new CorrectOneDaltonError(searcher.getZeroSearcher(),
+-                selector.getCompE(), mng);
+-        correctCharge = new CorrectCharge(searcher, selector, mng);
++
++        updateSeqs(seqsFull);
++
+         File detailOutputFile = new File(prop
+                 .getProperty("detailOutputFileName") + ".pre");
+         File tableOutputFile = new File(prop.getProperty("tableOutputFileName") + ".pre");
+@@ -73,8 +73,36 @@
+         logger.info("initialization finished");
+     }
+ 
++
++    public void updateSeqs(int ... proteinIds) throws Exception {
++        MsAlignSeq[] seqs = new MsAlignSeq[proteinIds.length];
++        for (int i = 0; i < seqs.length; i++) {
++            seqs[i] = seqsFull[proteinIds[i]];
++        }
++        updateSeqs(seqs);
++    }
++
++    private void updateSeqs(MsAlignSeq[] seqs) throws Exception {
++        nModSeqs = NModSeqFactory.getInstances(seqs,
++                mng.allowProtNTermMods, acetylation);
++        if (mng.nShift > 0) {
++            filter = new PtmFastFilterBatch(seqs, mng);
++        }
++
++        searcher = new PrSMSearcher(seqs, nModSeqs, mng);
++        if (seqs.length == seqsFull.length) {
++            selector = new PrSMSelector(seqs, nModSeqs, resList, mng);
++        }
++        correctOne = new CorrectOneDaltonError(searcher.getZeroSearcher(),
++                selector.getCompE(), mng);
++        correctCharge = new CorrectCharge(searcher, selector, mng);
++    }
++
+     private String updateMsg(Ms<DeconvPeak> ms, int nSpectra, int nProcessed,
+             long startTime) {
++        if (nSpectra == 0) {
++            return null;
++        }
+         String percentage = Integer.toString(nProcessed * 100 / nSpectra);
+         String msg = "Processing spectrum scan "
+                 + ms.getHeader().getScansString() + "...";
+@@ -87,6 +115,15 @@
+         return msg;
+     }
+ 
++    Map<Integer, Ms<DeconvPeak>[]> spectra = new HashMap<Integer, Ms<DeconvPeak>[]>();
++
++    public void readSpectra() throws Exception {
++        Ms<DeconvPeak>[] deconvSp = null;
++        while ((deconvSp = spReader.getNextMses()) != null) {
++            spectra.put(Integer.parseInt(deconvSp[0].getHeader().getScansString()), deconvSp);
++        }
++    }
++
+     public void process() throws Exception {
+         Ms<DeconvPeak>[] deconvSp;
+         int cnt = 0;
+@@ -113,6 +150,28 @@
+             throw new Exception("Empty data file!");
+         }
+         for (int start = 0; start < spectrumSetList.size(); start = start + 100) {
++            List<PrSM[]> topPrsmsList = getPrsms(spectrumSetList, startTime, start);
++            for (PrSM[] prSMs : topPrsmsList) {
++                output(prSMs);
++            }
++            System.out.println();
++        }
++    }
++
++    public List<PrSM[]> getPrsms(int spectrumId) throws Exception{
++        Ms<DeconvPeak>[] deconvSp = spectra.get(spectrumId);
++        SpectrumSet spectrumSet[] = new SpectrumSet[deconvSp.length];
++        for (int i = 0; i < deconvSp.length; i++) {
++            spectrumSet[i] = SpectrumSet.getSpectrumSet(deconvSp[i], 0, mng);
++        }
++
++        ArrayList<SpectrumSet[]> spectrumSetList = new ArrayList<SpectrumSet[]>();
++        spectrumSetList.add(spectrumSet);
++
++        return getPrsms(spectrumSetList, System.currentTimeMillis(), 0);
++    }
++
++    private List<PrSM[]> getPrsms(ArrayList<SpectrumSet[]> spectrumSetList, long startTime, int start) throws Exception {
+             ArrayList<SpectrumSet> curSpectrumSetList = new ArrayList<SpectrumSet>();
+             ArrayList<Integer> first = new ArrayList<Integer>();
+             ArrayList<Integer> last = new ArrayList<Integer>();
+@@ -142,14 +201,17 @@
+             logger.debug("Filtering time " + (System.currentTimeMillis() - startTime));
+             //logger.debug("curSpectrumSetList size " + curSpectrumSetList.size() + " match length " + matches.length);
+             logger.debug("filtering finish");
++        List<PrSM[]> topPrsmsList = new ArrayList<PrSM[]>();
+             for (int i = 0; i < first.size(); i++) {
+                 PrSM selePrSMs[][] = new PrSM[last.get(i) - first.get(i)][];
+                 for (int j = first.get(i); j < last.get(i); j++) {
+                     long alignBgn = System.currentTimeMillis();
+                     SpectrumSet spectrumSet = curSpectrumSetList.get(j);
+-                    System.out.print("\r"
+-                            + updateMsg(spectrumSet.getDeconvMs(), nSpectra, i
+-                                    + start, startTime));
++                String message = updateMsg(spectrumSet.getDeconvMs(), nSpectra, i
++                        + start, startTime);
++                if (message != null) {
++                    System.out.print("\r" + message);
++                }
+                     PrSM prsms[][][];
+                     if (mng.nShift > 0) {
+                         prsms = searcher.search(spectrumSet, matches[j]);
+@@ -183,11 +245,14 @@
+                             correctCharge.correct(topPrsms, null);
+                         }
+                     }
+-                    output(topPrsms);
++                topPrsmsList.add(topPrsms);
+                 }
+             }
+-            System.out.println();
++        return topPrsmsList;
+         }
++
++    public PrSM[] select(SpectrumSet spectrumSet, PrSM prsms[][][]) throws Exception {
++        return selector.select(spectrumSet, prsms);
+     }
+ 
+     private PrSM[] combineSelePrSMs(PrSM selePrSMs[][]) {

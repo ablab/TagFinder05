@@ -111,7 +111,7 @@ public class Tag4Finder {
                     }
                     double[] best = EValueAdapter.getBestPrsm(scan, pIds);
                     if (best[1] > -1 && best[0] < bestEvalue) {
-                        bestProteinId = pIds[(int) Math.round(best[1])];
+                        bestProteinId = (int)Math.round(best[1]);
                         bestEvalue = best[0];
                     }
                 }

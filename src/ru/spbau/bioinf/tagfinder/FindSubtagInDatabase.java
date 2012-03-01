@@ -49,7 +49,7 @@ public class FindSubtagInDatabase {
             System.out.println("maxLen = " + maxLen);
             List<List<Peak>> componentsFromGraph = GraphUtil.getComponentsFromGraph(peaks);
             final Map<Integer, Integer> score = new HashMap<Integer, Integer>();
-            Tag4Finder.fillScoresSeparator(componentsFromGraph, score);
+            Tag4Finder.fillScoresSeparator(componentsFromGraph, score, 300);
 
             for (String tag : process) {
                 System.out.println(tag);

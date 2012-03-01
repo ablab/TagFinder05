@@ -22,13 +22,13 @@ public class Tag4Finder {
     }
 
     static int TAG_SIZE = 4;
-    
+
     public static void main(String[] args) throws Exception {
         String[] parameters = new String[]{};
         int start = -1;
         int candidatesCount = 20;
         int batchSize = candidatesCount;
-        
+        int peptideLength = 300;
 
         for (String arg : args) {
             int ind = arg.indexOf('=');
@@ -42,21 +42,19 @@ public class Tag4Finder {
                     }
                 }
                 if ("start".equals(parameter)) {
-                    try {
-                        start = Integer.parseInt(arg);
-                    } catch (NumberFormatException e) {
-                    }
+                    start = Integer.parseInt(value);
+                }
+                if ("peptideLength".equals(parameter)) {
+                    peptideLength = Integer.parseInt(value);
                 }
                 if ("batchSize".equals(parameter)) {
-                    try {
-                        batchSize = Integer.parseInt(value);
-                    } catch (NumberFormatException e) {
-                    }
+                    batchSize = Integer.parseInt(value);
                 }
             }
         }
         System.out.println("candidatesCount = " + candidatesCount);
         System.out.println("batchSize = " + batchSize);
+        System.out.println("peptideLength = " + peptideLength);
                 
         conf = new Configuration(parameters);
         EValueAdapter.init(conf);
@@ -82,7 +80,7 @@ public class Tag4Finder {
             List<List<Peak>> componentsFromGraph = GraphUtil.getComponentsFromGraph(peaks);
             final Map<Integer, Integer> score = new HashMap<Integer, Integer>();
             System.out.print(scanId + " ") ;
-            fillScoresSeparator(componentsFromGraph, score);
+            fillScoresSeparator(componentsFromGraph, score, peptideLength);
             if (!score.isEmpty()) {
                 List<Integer> proteinIds = new ArrayList<Integer>();
                 proteinIds.addAll(score.keySet());
@@ -126,18 +124,17 @@ public class Tag4Finder {
     }
 
 
-    public static void fillScoresSeparator(List<List<Peak>> componentsFromGraph, Map<Integer, Integer> scores) {
+    public static void fillScoresSeparator(List<List<Peak>> componentsFromGraph, Map<Integer, Integer> scores, int peptideLength) {
         List<String> tags = getTags(componentsFromGraph);
-        int subSequenceLength = 300;        
         for (Protein protein : proteins) {
             int score = 0;
             String sequence = protein.getSimplifiedAcids();
-            int end = sequence.length() - subSequenceLength + 1;
+            int end = sequence.length() - peptideLength + 1;
             if (end < 1) {
                 end = 1;
             }
             for (int start = 0; start < end; start++) {
-                String s = sequence.substring(start, Math.min(start + subSequenceLength, sequence.length()));
+                String s = sequence.substring(start, Math.min(start + peptideLength, sequence.length()));
                 int nextScore = 0;
                 for (String tag : tags) {
                     for (int i = 0; i <= tag.length() - TAG_SIZE; i++) {

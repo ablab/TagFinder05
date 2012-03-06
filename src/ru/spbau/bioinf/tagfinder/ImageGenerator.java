@@ -34,7 +34,7 @@ public class ImageGenerator {
         df.setGroupingSize(10000);
     }
 
-    private static Color[] colors = new Color[] {Color.RED, Color.GREEN, Color.MAGENTA, Color.BLUE, Color.ORANGE};
+    private static Color[] colors = new Color[] {Color.RED, Color.GREEN, Color.MAGENTA, Color.ORANGE};
     
     public static void main(String[] args) throws Exception {    
         Configuration conf = new Configuration(args);
@@ -44,6 +44,7 @@ public class ImageGenerator {
         for (Scan scan : scans.values()) {
             List<Peak> peaks = scan.createSpectrumWithYPeaks(PrecursorMassShiftFinder.getPrecursorMassShiftForMoreEdges(conf, scan));
             Collections.sort(peaks);
+            filterDuplicates(conf, peaks);
             GraphUtil.generateGapEdges(conf, peaks, 1);
             List<List<Peak>> componentsFromGraph = GraphUtil.getComponentsFromGraph(peaks);
             List<List<Peak[]>> a = new ArrayList<List<Peak[]>>();
@@ -149,5 +150,63 @@ public class ImageGenerator {
 
             writer.write(null, new IIOImage(bi, null, null ), param);
         }
+    }
+
+    public static List<Peak> filterDuplicates(Configuration conf, List<Peak> peaks) {
+        for (int i = 0; i < peaks.size(); i++) {
+            Peak p1 = peaks.get(i);
+
+            for (int j = 0; j < peaks.size(); j++) {
+                if (i != j) {
+                    Peak p2 =  peaks.get(j);
+                    if (Math.abs(p1.getValue() - p2.getValue()) < 0.1) {
+                        if (!p1.getNext().containsAll(p2.getNext())) {
+                            continue;
+                        }
+                        boolean isParent = true;
+                        for (Peak p3 : p2.getNext()) {
+                            for (Acid acid : Acid.values()) {
+                                if (acid.match(conf.getEdgeLimits(p2, p3)) && !acid.match(conf.getEdgeLimits(p1, p3))) {
+                                    isParent = false;
+                                    break;
+                                }
+                            }
+                            if (!isParent) {
+                                break;
+                            }
+                        }
+                        if (!isParent) {
+                            continue;
+                        }
+
+                        for (Peak p0 : peaks) {
+                            if (p0.getNext().contains(p2)) {
+                                if (!p0.getNext().contains(p1)) {
+                                    isParent = false;
+                                }
+                                if (!isParent) {
+                                    break;
+                                }
+                                for (Acid acid : Acid.values()) {
+                                    if (acid.match(conf.getEdgeLimits(p0, p2)) && !acid.match(conf.getEdgeLimits(p0, p1))) {
+                                        isParent = false;
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                        if (isParent) {
+                            for (Peak peak : peaks) {
+                                peak.getNext().remove(p2);
+                            }
+                            peaks.remove(p2);
+                            //System.out.println("remove  = " + p2.getValue() );
+                            return filterDuplicates(conf, peaks);
+                        }
+                    }
+                }
+            }
+        }
+        return peaks;
     }
 }

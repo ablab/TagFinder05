@@ -28,7 +28,9 @@ public class Tag4Finder {
         int start = -1;
         int candidatesCount = 20;
         int batchSize = candidatesCount;
-        int peptideLength = 300;
+        int peptideLength = 150;
+
+        String searchType = "TARGET";
 
         for (String arg : args) {
             int ind = arg.indexOf('=');
@@ -50,6 +52,9 @@ public class Tag4Finder {
                 if ("batchSize".equals(parameter)) {
                     batchSize = Integer.parseInt(value);
                 }
+                if ("searchType".equals(parameter)) {
+                    searchType = value;
+                }
             }
         }
         System.out.println("candidatesCount = " + candidatesCount);
@@ -57,7 +62,7 @@ public class Tag4Finder {
         System.out.println("peptideLength = " + peptideLength);
                 
         conf = new Configuration(parameters);
-        EValueAdapter.init(conf);
+        EValueAdapter.init(conf, searchType);
         proteins = conf.getProteins();
         Map<Integer, Scan> scans = conf.getScans();
         List<Integer> keys = new ArrayList<Integer>();

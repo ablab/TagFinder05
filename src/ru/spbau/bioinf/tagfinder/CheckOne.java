@@ -24,7 +24,7 @@ public class CheckOne {
         //Logger.getLogger(AlignSpectrum.class).setLevel(Level.TRACE);
         long start = System.currentTimeMillis();                
         conf = new Configuration(args);
-        EValueAdapter.init(conf);
+        EValueAdapter.init(conf, "TARGET");
         proteins = conf.getProteins();
         Tag4Finder.proteins = proteins;
         Map<Integer, Scan> scans = conf.getScans();

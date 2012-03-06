@@ -23,7 +23,7 @@ public class FourSearchPositive {
     
     public static void main(String[] args) throws Exception {
         conf = new Configuration(args);
-        EValueAdapter.init(conf);
+        EValueAdapter.init(conf, "TARGET");
         proteins = conf.getProteins();
         Map<Integer, Integer> msAlignResults = conf.getMSAlignResults();
         Map<Integer, Scan> scans = conf.getScans();

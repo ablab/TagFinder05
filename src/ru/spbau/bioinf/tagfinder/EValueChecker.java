@@ -26,7 +26,7 @@ public class EValueChecker {
 
         Map<Integer, Double> evalues = conf.getEvalues();
 
-        EValueAdapter.init(conf);
+        EValueAdapter.init(conf, "TARGET");
 
         for (int key : keys) {
             Scan scan = scans.get(key);

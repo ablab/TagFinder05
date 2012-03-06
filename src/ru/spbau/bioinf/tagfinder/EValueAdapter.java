@@ -15,10 +15,10 @@ public class EValueAdapter {
 
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration(args);
-        init(conf);
+        init(conf, "TARGET");
     }
 
-    public static void init(Configuration conf) throws Exception {
+    public static void init(Configuration conf, String searchType) throws Exception {
         //comp = new IdCompEValue(conf.getProteinDatabaseFile().getCanonicalPath(), conf.getProteinDatabaseFile().getCanonicalPath(), 15);
         conf.getScans();
         Properties prop = PropertyUtil.getDefaultProperties();
@@ -26,6 +26,7 @@ public class EValueAdapter {
         prop.put("spectrumFileName", conf.getMsalignFile().getAbsolutePath());
         prop.put("activation", "CID");
         prop.put("cysteineProtection", "C57");
+        prop.put("searchType", searchType);
         align = new MsAlign(prop);
         align.readSpectra();
     }
